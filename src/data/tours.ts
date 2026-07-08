@@ -48,7 +48,7 @@ export const tours: Tour[] = [
     rating: 4.6,
     reviewCount: 55388,
     imageAlt: 'Disneyland® Paris 1-Day Ticket - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/fea1f058382affdd2d631301246d665ee1005bb0b412acb3281a06f777f2191a.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/fea1f058382affdd2d631301246d665ee1005bb0b412acb3281a06f777f2191a.jpg/145.jpg',
     categories: ['skip-the-line-tickets'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -114,7 +114,7 @@ export const tours: Tour[] = [
     rating: 4.4,
     reviewCount: 24697,
     imageAlt: 'Paris: Evening River Cruise with Music - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/1245aba24e7dcb0b133c0383f0b4fe552f1cf76df85a94834e61c552db46428c.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/1245aba24e7dcb0b133c0383f0b4fe552f1cf76df85a94834e61c552db46428c.png/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -279,7 +279,7 @@ export const tours: Tour[] = [
     rating: 4.4,
     reviewCount: 15257,
     imageAlt: 'Paris: Big Bus Hop-On Hop-Off Tour with Optional Cruise - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/3cf4123fcbe181657f6ee4593ad65e2d415539d8932cc862fcc2e26fe88f68af.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/3cf4123fcbe181657f6ee4593ad65e2d415539d8932cc862fcc2e26fe88f68af.png/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -345,7 +345,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 8321,
     imageAlt: 'Paris: 3-Course-Dinner Cruise on the Seine with live music - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/926695a4d09267059a049d40e86d7bc9d1eb26cf14ba02bedf1b000e68b931c8.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/926695a4d09267059a049d40e86d7bc9d1eb26cf14ba02bedf1b000e68b931c8.jpg/145.jpg',
     categories: ['food-wine-nightlife'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -444,7 +444,7 @@ export const tours: Tour[] = [
     rating: 4.7,
     reviewCount: 5805,
     imageAlt: 'Paris: Louvre Museum Tour Mona Lisa & Iconic Masterpieces - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/4c6598ce3d268ec22a500da730c07979a36100d0bf92ca13b27a04fb69014c43.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/4c6598ce3d268ec22a500da730c07979a36100d0bf92ca13b27a04fb69014c43.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -477,7 +477,7 @@ export const tours: Tour[] = [
     rating: 4.5,
     reviewCount: 5637,
     imageAlt: 'Day Trip to Mont-Saint-Michel from Paris - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/59556593ddb3d843d78ca3e21dcf6171571a9e7f8802aac463e6110ad4ea5617.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/59556593ddb3d843d78ca3e21dcf6171571a9e7f8802aac463e6110ad4ea5617.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -510,7 +510,7 @@ export const tours: Tour[] = [
     rating: 4.5,
     reviewCount: 4157,
     imageAlt: 'Paris: Bateaux Mouches® Dinner Cruise on the Seine River - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/29997d3da891fcf8d5fc45bae7f6316d3a4c36458fb8d3b353109f6afbcee894.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/29997d3da891fcf8d5fc45bae7f6316d3a4c36458fb8d3b353109f6afbcee894.png/145.jpg',
     categories: ['food-wine-nightlife'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -576,7 +576,7 @@ export const tours: Tour[] = [
     rating: 4.2,
     reviewCount: 2772,
     imageAlt: 'From Paris: Giverny Day Trip with Audio Guide or Live Guide - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/1918466ef5a57f1daf133869145e4da0c5af512497119e1c347b1901c6dcb0fc.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/1918466ef5a57f1daf133869145e4da0c5af512497119e1c347b1901c6dcb0fc.jpg/145.jpg',
     categories: ['guided-tours'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
@@ -840,7 +840,7 @@ export const tours: Tour[] = [
     rating: 4.5,
     reviewCount: 1010,
     imageAlt: 'Louvre Priority Access Mona Lisa & Museum Icons Guided Tour - Paris',
-    imageUrl: 'https://cdn.getyourguide.com/img/tour/51e1e704e48a34bc0e0b6c01a840944f1ffcf04b36c1f1306e41eec833e55ed7.jpeg/145.jpg',
+    imageUrl: 'https://cdn.getyourguide.com/img/tour/51e1e704e48a34bc0e0b6c01a840944f1ffcf04b36c1f1306e41eec833e55ed7.jpg/145.jpg',
     categories: ['skip-the-line-tickets'],
     highlights: [
       'Booked through GetYourGuide with instant confirmation',
