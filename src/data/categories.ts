@@ -23,7 +23,7 @@ export const categories: Category[] = [
     description: 'The best guided tours in Paris, hand-picked from the top-rated experiences on GetYourGuide. Book ahead for the best availability, skip the queues where offered, and enjoy free cancellation on most options.',
     excerpt: 'Top-rated guided tours in Paris, booked direct through GetYourGuide.',
     icon: '🧑‍🏫',
-    tourSlugs: ['paris-1-hour-seine-cruise-departing-from-the-eiffel-tower', 'paris-night-cruise-on-the-seine-river-with-aperitif', 'paris-big-bus-hop-on-hop-off-tour-with-optional-cruise', 'paris-louvre-museum-tour-mona-lisa-iconic-masterpieces', 'from-paris-mont-st-michel-at-your-own-pace-by-coach', 'parisnotre-dame-cathedral-interior-and-exterior-guided-tour', 'paris-bateaux-mouches-evening-cruise-souvenir-postcard', 'paris-seine-river-sightseeing-evening-cruise-with-champagne'],
+    tourSlugs: ['paris-1-hour-seine-cruise-departing-from-the-eiffel-tower', 'paris-night-cruise-on-the-seine-river-with-aperitif', 'paris-big-bus-hop-on-hop-off-tour-with-optional-cruise', 'quick-entrance-louvre-museum-3-hour-tour', 'paris-louvre-museum-tour-mona-lisa-iconic-masterpieces', 'from-paris-mont-st-michel-at-your-own-pace-by-coach', 'half-day-trip-to-giverny-from-paris', 'parisnotre-dame-cathedral-interior-and-exterior-guided-tour', 'paris-bateaux-mouches-evening-cruise-souvenir-postcard'],
     faqs: [
       { question: 'How do I book guided tours in Paris?', answer: 'Choose a tour below and book directly through GetYourGuide. You get instant confirmation and a mobile ticket.' },
       { question: 'Is free cancellation available?', answer: 'Most experiences offer free cancellation up to 24 hours before. Check the individual booking page for details.' },
@@ -51,7 +51,7 @@ export const categories: Category[] = [
     description: 'The best top attractions in Paris, hand-picked from the top-rated experiences on GetYourGuide. Book ahead for the best availability, skip the queues where offered, and enjoy free cancellation on most options.',
     excerpt: 'Top-rated top attractions in Paris, booked direct through GetYourGuide.',
     icon: '⭐',
-    tourSlugs: ['eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'paris-eiffel-tower-summit-or-second-floor-access', 'eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'eiffel-tower-dedicated-reserved-access-top-or-2nd-by-lift', 'paris-macaron-baking-class-for-families-and-kids'],
+    tourSlugs: ['eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'paris-eiffel-tower-summit-or-second-floor-access', 'eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'fragonard-paris-mini-perfume-workshop', 'paris-macaron-class-at-galeries-lafayette'],
     faqs: [
       { question: 'How do I book top attractions in Paris?', answer: 'Choose a tour below and book directly through GetYourGuide. You get instant confirmation and a mobile ticket.' },
       { question: 'Is free cancellation available?', answer: 'Most experiences offer free cancellation up to 24 hours before. Check the individual booking page for details.' },
