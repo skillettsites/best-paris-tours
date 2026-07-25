@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TrackedGYGLink from '@/components/TrackedGYGLink';
 import { tours } from '@/data/tours';
 import { categories } from '@/data/categories';
+import { blogPosts } from '@/data/blog-posts';
 import { SITE_CITY, GYG_PARTNER_ID, GYG_LOCATION_ID, GYG_CITY_URL } from '@/lib/constants';
 import { trustStats } from '@/lib/trust';
 
@@ -20,6 +21,19 @@ import SisterSites from '@/components/SisterSites';
 const byReviews = [...tours].sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
 const mostBookedTours = byReviews.slice(0, 6);
 const featuredTours = byReviews.slice(6, 12);
+
+// Decision-content guides surfaced from the homepage to drive clicks into the blog layer.
+const decisionGuideSlugs = [
+  'is-the-eiffel-tower-summit-worth-it',
+  'is-a-versailles-day-trip-from-paris-worth-it',
+  'louvre-guided-tour-vs-skip-the-line-ticket',
+  'how-to-skip-the-line-in-paris',
+  'which-seine-river-cruise-is-worth-it',
+  'louvre-vs-musee-dorsay-which-museum',
+];
+const decisionGuides = decisionGuideSlugs
+  .map((slug) => blogPosts.find((p) => p.slug === slug))
+  .filter((p): p is NonNullable<typeof p> => p !== undefined);
 
 const testimonials = [
   { quote: `Booking ahead through the site was effortless. We skipped the long queue and walked straight in. Easily the highlight of our trip to ${SITE_CITY}.`, author: 'Sarah M.', location: 'United States', rating: 5 },
@@ -135,6 +149,36 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Decision guides */}
+      {decisionGuides.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+          <SectionHeader
+            eyebrow="Trip planning"
+            title={`Is it worth it? ${SITE_CITY} trip-planning guides`}
+            subtitle="Honest verdicts on the big Paris decisions, so you book the right ticket first time."
+            action={{ label: 'All guides', href: '/blog' }}
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {decisionGuides.map((post, i) => (
+              <RevealOnScroll key={post.slug} delay={(i % 3) * 0.08}>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="group flex h-full flex-col rounded-card-lg border border-border bg-surface p-6 transition-all hover:border-primary hover:shadow-card"
+                >
+                  <span className="text-xs font-semibold tracking-[0.18em] uppercase text-accent mb-2">Is it worth it?</span>
+                  <h3 className="text-lg font-semibold text-on-surface leading-snug transition-colors group-hover:text-primary">{post.title}</h3>
+                  <p className="mt-2 flex-1 text-sm text-on-surface-2 leading-relaxed">{post.excerpt}</p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
+                    Read the verdict
+                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+                  </span>
+                </Link>
+              </RevealOnScroll>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Stats */}
       <section className="bg-surface-muted">

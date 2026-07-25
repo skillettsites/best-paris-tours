@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Is the Eiffel Tower Summit Worth It in 2026? Honest Guide',
     metaDescription: 'Is paying extra for Eiffel Tower summit access worth it, or is the second floor enough? An honest verdict on views, queues, prices and which ticket to book.',
     excerpt: 'Summit or second floor? A straight answer on whether the top of the Eiffel Tower justifies the extra cost and the extra wait.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/6405e8a8cc3c2.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/6405e8a8cc3c2.jpeg/99.jpg',
     heroImageAlt: 'The Eiffel Tower rising above Paris on a clear day',
     content: `<p><strong>The short answer:</strong> the summit is worth it once, on a clear day, if the view is the whole point of your visit. If you mainly want the Eiffel Tower experience and a great photo over Paris, the second floor gives you almost everything for less money and less waiting. Below is the honest breakdown so you can decide before you book.</p>
 
@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Louvre Guided Tour vs Skip-the-Line Ticket (2026 Verdict)',
     metaDescription: 'Should you book a Louvre guided tour or a skip-the-line ticket? An honest comparison of price, crowds, the Mona Lisa and which option suits your visit.',
     excerpt: 'A guide costs more but the Louvre is enormous. Here is when a tour pays off and when reserved-access entry is all you need.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/82dc189c53745ee77bd25559d0a0baaa822b5753f4df605da909aa414442a4ee.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/82dc189c53745ee77bd25559d0a0baaa822b5753f4df605da909aa414442a4ee.jpeg/99.jpg',
     heroImageAlt: 'The Louvre glass pyramid in the palace courtyard in Paris',
     content: `<p><strong>The short answer:</strong> the Louvre is so vast that a guided tour is worth it for first-time visitors who want to see the highlights without getting lost or overwhelmed. If you have been before, or you prefer to wander at your own pace, a reserved-access highlights tour is the leaner choice. The one thing you should never do is turn up without pre-booked entry.</p>
 
@@ -114,7 +114,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Is a Versailles Day Trip From Paris Worth It? (2026)',
     metaDescription: 'Is the Palace of Versailles worth a day trip from Paris? An honest verdict on crowds, the gardens, skip-the-line tours with transport and which ticket to book.',
     excerpt: 'The palace is stunning but the crowds are real. Here is whether Versailles earns a day of your Paris trip, and how to do it right.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/3016f2213157ac1d.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/3016f2213157ac1d.jpeg/99.jpg',
     heroImageAlt: 'The Palace of Versailles and its formal gardens near Paris',
     content: `<p><strong>The short answer:</strong> yes, Versailles is worth it, but only if you go in with a plan. The palace and gardens are extraordinary, and they are the best half-day trip from Paris. Done badly, it becomes hours of queuing in a crush of tour groups. Done well, with skip-the-line access and an early start, it is a highlight of the whole city break.</p>
 
@@ -164,7 +164,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Which Seine River Cruise Is Worth It? Paris Guide 2026',
     metaDescription: 'Sightseeing, evening lights or dinner cruise on the Seine? An honest comparison of the best Paris river cruises by price, timing and what you actually get.',
     excerpt: 'From a £15 daytime cruise to a £98 dinner sailing, here is which Seine cruise is worth your money and which to skip.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/cf879ee295abc8e4.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/cf879ee295abc8e4.jpeg/99.jpg',
     heroImageAlt: 'A sightseeing boat on the Seine passing Paris landmarks',
     content: `<p><strong>The short answer:</strong> a Seine cruise is one of the best-value things you can do in Paris, and almost everyone enjoys it. The daytime sightseeing cruise is the smart budget pick, the evening lights cruise is the most romantic, and the dinner cruise is a genuine special-occasion splurge rather than an everyday choice. Here is how to match the cruise to your trip.</p>
 
@@ -213,7 +213,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Eiffel Tower vs Montparnasse Tower View (2026 Verdict)',
     metaDescription: 'Eiffel Tower or Montparnasse Tower for the best view of Paris? An honest comparison of the panoramas, and which Eiffel Tower ticket to book if you choose the icon.',
     excerpt: 'One view puts you on the icon; the other puts the icon in your photo. Here is which Paris viewpoint is actually worth it.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/0f1e19c74c6820a9.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/0f1e19c74c6820a9.jpeg/99.jpg',
     heroImageAlt: 'The Eiffel Tower seen above the Paris skyline',
     content: `<p><strong>The short answer:</strong> book the Eiffel Tower for the experience of standing on the world's most famous landmark, and treat Montparnasse as the photographer's viewpoint because it is the one place you can shoot Paris with the Eiffel Tower actually in the frame. If you only have time for one and you want the classic Paris moment, the Eiffel Tower wins.</p>
 
@@ -257,7 +257,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Is a Paris Catacombs Tour Worth It? Honest Guide 2026',
     metaDescription: 'Are the Paris Catacombs worth visiting? An honest verdict on the experience, what to expect underground, prices and whether the cruise-combo ticket is good value.',
     excerpt: 'Six million skeletons beneath the city. Fascinating or grim? Here is whether the Paris Catacombs earn a spot on your itinerary.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/2dea3428611b06c5.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/2dea3428611b06c5.jpeg/99.jpg',
     heroImageAlt: 'Bone-lined passages in the Paris Catacombs',
     content: `<p><strong>The short answer:</strong> the Catacombs are worth it if you are drawn to history's stranger corners and you are comfortable in tight, dim underground spaces. They are genuinely unlike anything else in Paris. If you are claustrophobic, squeamish about human remains, or travelling with young or nervous children, this is an easy one to skip.</p>
 
@@ -310,7 +310,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Louvre vs Musee d\'Orsay: Which to Visit? (2026 Guide)',
     metaDescription: 'Louvre or Musee d\'Orsay in Paris? An honest comparison of the collections, crowds, size and guided tours to help you choose the right museum for your visit.',
     excerpt: 'The overwhelming giant or the manageable masterpiece? Here is how to choose between Paris\'s two great museums, or fit both in.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/62d6cdfb5f3ec.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/62d6cdfb5f3ec.jpeg/99.jpg',
     heroImageAlt: 'The grand hall of the Musee d\'Orsay in Paris',
     content: `<p><strong>The short answer:</strong> if you want the greatest hits of world art and a bucket-list building, choose the Louvre. If you want Impressionism, Monet, Van Gogh and a museum you can actually finish in an afternoon, choose the Musee d'Orsay. If you have two days and any love of art, do both, because they tell two different halves of the same story.</p>
 
@@ -360,7 +360,7 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'How to Skip the Line in Paris (2026): Tickets & Tips',
     metaDescription: 'How to skip the line at the Eiffel Tower, Louvre, Versailles and Musee d\'Orsay. A practical guide to skip-the-line tickets and tours in Paris, with prices.',
     excerpt: 'Queues are the one thing that can ruin a Paris trip. Here is exactly how to skip them at every major attraction, and what it costs.',
-    heroImage: 'https://cdn.getyourguide.com/img/tour/6405e8a8cc3c2.jpeg/145.jpg',
+    heroImage: 'https://cdn.getyourguide.com/img/tour/6405e8a8cc3c2.jpeg/99.jpg',
     heroImageAlt: 'The Eiffel Tower and Paris skyline on a clear day',
     content: `<p><strong>The short answer:</strong> in Paris, skip-the-line access is not a luxury, it is the difference between a great day and a wasted one. At the top attractions the standard queues can run past two hours in summer. Booking timed or reserved-access tickets in advance is the single best thing you can do to protect your time. Here is how to skip the line at each of the big four.</p>
 

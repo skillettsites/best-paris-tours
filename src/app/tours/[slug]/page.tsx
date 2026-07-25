@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { tours, getTourBySlug, getRelatedTours } from '@/data/tours';
 import { categories } from '@/data/categories';
 import { guides } from '@/data/guides';
+import { getBlogPostBySlug } from '@/data/blog-posts';
 import { tourSchema, touristTripSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/constants';
 import { TOP_CONVERTER_BY_DESTINATION } from '@/lib/trust';
@@ -31,6 +32,18 @@ const categoryGuideMap: Record<string, string[]> = {
   'museums-exhibitions': ['paris-rainy-day-activities', 'first-time-visiting-paris', 'best-paris-tours-for-kids'],
   'evening-experiences': ['paris-tours-for-couples', 'best-walking-tours-paris-2026', 'best-evening-tours-paris-2026'],
 };
+
+// Map tour keywords to relevant decision-content blog posts. Falls back to the
+// three highest-intent guides when nothing matches.
+const blogGuideKeywordMap: { match: string[]; slugs: string[] }[] = [
+  { match: ['eiffel', 'montparnasse'], slugs: ['is-the-eiffel-tower-summit-worth-it', 'eiffel-tower-vs-montparnasse-tower-view', 'how-to-skip-the-line-in-paris'] },
+  { match: ['louvre'], slugs: ['louvre-guided-tour-vs-skip-the-line-ticket', 'louvre-vs-musee-dorsay-which-museum', 'how-to-skip-the-line-in-paris'] },
+  { match: ['orsay', 'museum'], slugs: ['louvre-vs-musee-dorsay-which-museum', 'louvre-guided-tour-vs-skip-the-line-ticket', 'how-to-skip-the-line-in-paris'] },
+  { match: ['versailles'], slugs: ['is-a-versailles-day-trip-from-paris-worth-it', 'how-to-skip-the-line-in-paris', 'is-the-eiffel-tower-summit-worth-it'] },
+  { match: ['seine', 'cruise', 'boat'], slugs: ['which-seine-river-cruise-is-worth-it', 'is-a-paris-catacombs-tour-worth-it', 'how-to-skip-the-line-in-paris'] },
+  { match: ['catacomb'], slugs: ['is-a-paris-catacombs-tour-worth-it', 'which-seine-river-cruise-is-worth-it', 'how-to-skip-the-line-in-paris'] },
+];
+const DEFAULT_BLOG_SLUGS = ['how-to-skip-the-line-in-paris', 'is-the-eiffel-tower-summit-worth-it', 'is-a-versailles-day-trip-from-paris-worth-it'];
 
 const REDIRECTED = new Set<string>([]);
 
@@ -63,6 +76,14 @@ export default async function TourPage({ params }: { params: Params }) {
   if (!tour) notFound();
 
   const relatedTours = getRelatedTours(tour).slice(0, 3);
+
+  // Lightweight related decision guides, matched by tour keyword with a default set.
+  const haystack = `${tour.slug} ${tour.title}`.toLowerCase();
+  const matchedGuideEntry = blogGuideKeywordMap.find((m) => m.match.some((k) => haystack.includes(k)));
+  const relatedGuidePosts = (matchedGuideEntry ? matchedGuideEntry.slugs : DEFAULT_BLOG_SLUGS)
+    .map((s) => getBlogPostBySlug(s))
+    .filter((p): p is NonNullable<typeof p> => p !== undefined)
+    .slice(0, 3);
 
   // "Or book instead", destination's top converter (Paris for BLT)
   const topConverter = TOP_CONVERTER_BY_DESTINATION.paris;
@@ -330,6 +351,27 @@ export default async function TourPage({ params }: { params: Params }) {
             </section>
           );
         })()}
+
+        {/* Related decision guides */}
+        {relatedGuidePosts.length > 0 && (
+          <section className="mt-16 rounded-card-lg border border-border bg-surface p-6 sm:p-8">
+            <h2 className="text-xl font-semibold text-on-surface mb-1">Is it worth it? Related guides</h2>
+            <p className="text-sm text-on-surface-2 mb-5">Honest verdicts to help you decide before you book.</p>
+            <ul className="grid gap-3 sm:grid-cols-3">
+              {relatedGuidePosts.map((post) => (
+                <li key={post.slug}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="group block h-full rounded-card border border-border bg-surface-muted p-4 transition-colors hover:border-primary"
+                  >
+                    <span className="font-medium leading-snug text-primary group-hover:underline">{post.title}</span>
+                    <p className="mt-1 text-sm text-on-surface-2">{post.excerpt}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Related tours */}
         {relatedTours.length > 0 && (
