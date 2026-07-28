@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
 <img src="https://cdn.getyourguide.com/img/tour/0f1e19c74c6820a9.jpeg/145.jpg" alt="View over Paris from the Eiffel Tower second floor" loading="lazy" />
 
 <h2>The price difference</h2>
-<p>An <strong>Eiffel Tower entry ticket with optional summit access starts from £21</strong>, and it lets you decide whether to add the top when you book. A dedicated <strong>summit or second floor access ticket runs to around £76</strong> for the premium timed option, while a <strong>guided reserved-access tour to the summit or second floor starts from £27</strong> if you want a host to handle the logistics. The summit upgrade itself is not huge in cash terms, but the real cost is time.</p>
+<p>An <strong>Eiffel Tower entry ticket with optional summit access starts from £21</strong>, and it lets you decide whether to add the top when you book. A dedicated <strong>summit or second floor access ticket starts from around £25</strong>, while a <strong>guided reserved-access tour to the summit or second floor starts from £27</strong> if you want a host to handle the logistics. The summit upgrade itself is not huge in cash terms, but the real cost is time.</p>
 <p class="cta-box"><a href="${GYG('149861')}" target="_blank" rel="noopener noreferrer sponsored">Check live Eiffel Tower entry and summit prices on GetYourGuide &rarr;</a></p>
 
 <h2>The queue reality</h2>
@@ -56,7 +56,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedBlogSlugs: ['eiffel-tower-vs-montparnasse-tower-view', 'how-to-skip-the-line-in-paris'],
     faqs: [
-      { question: 'How much extra is Eiffel Tower summit access?', answer: 'An entry ticket with optional summit access starts from £21, letting you add the top when you book. Dedicated summit or second floor tickets run to around £76 for premium timed options, and guided reserved-access tours start from £27.' },
+      { question: 'How much extra is Eiffel Tower summit access?', answer: 'An entry ticket with optional summit access starts from £21, letting you add the top when you book. Dedicated summit or second floor tickets start from around £25, and guided reserved-access tours start from £27.' },
       { question: 'Is the view better from the summit or the second floor?', answer: 'The second floor often gives the more photogenic view because you can pick out individual landmarks. The summit is higher and more dramatic overall, but details look flatter from 276 metres.' },
       { question: 'Should I book Eiffel Tower tickets in advance?', answer: 'Yes. Advance timed or reserved-access tickets let you skip the ground-level ticket and security queues, which can exceed two hours in peak summer season.' },
       { question: 'Is the summit worth it on a cloudy day?', answer: 'No. On hazy or cloudy days the summit view is often washed out or lost in cloud. Save the fare and enjoy the second floor instead.' },
@@ -78,12 +78,12 @@ export const blogPosts: BlogPost[] = [
 <p>The Louvre is the most visited museum on earth, with more than 30,000 works spread across a former royal palace so large that people genuinely lose their bearings. The Mona Lisa, the Venus de Milo and the Winged Victory of Samothrace are scattered across different wings, and the signage is famously confusing. Without a plan, a lot of visitors spend their two hours walking corridors rather than looking at art.</p>
 
 <h2>What a guided tour gives you</h2>
-<p>A guide solves the two hardest problems at once: navigation and context. On a <strong>Mona Lisa and Louvre masterpieces tour with reserved access from £55</strong>, an expert walks you straight to the headline works, tells you the stories behind them, and keeps you moving efficiently. A longer <strong>Louvre museum tour with the Mona Lisa and iconic masterpieces runs from £84</strong> for a deeper two-hour experience, and a <strong>priority-access Mona Lisa and museum icons guided tour starts from £96</strong> at the premium end.</p>
+<p>A guide solves the two hardest problems at once: navigation and context. On a <strong>Mona Lisa and Louvre masterpieces tour with reserved access from £50</strong>, an expert walks you straight to the headline works, tells you the stories behind them, and keeps you moving efficiently. A <strong>priority-access Mona Lisa and museum icons guided tour starts from £60</strong> for two hours, and a fuller <strong>Louvre museum tour with the Mona Lisa and iconic masterpieces runs from £75</strong> at the top end.</p>
 <p>The value is not just the stories. It is walking past a 40-minute crowd at the Mona Lisa with someone who knows the best moment and angle to see her, then spending your remaining energy on art rather than map-reading.</p>
 <p class="cta-box"><a href="${GYG('10505')}" target="_blank" rel="noopener noreferrer sponsored">Check live prices for the Louvre masterpieces tour &rarr;</a></p>
 
 <h2>When reserved-access entry is enough</h2>
-<p>Every option we list includes reserved or priority access, so the real decision is guide versus no guide. Skip the full tour if you are a repeat visitor, if you are an art lover who wants to linger without a group pace, or if you have a specific wing in mind and do not need the highlights loop. In those cases the shorter reserved-access highlights tour at £55 gives you the quick entry and orientation without the longer commitment.</p>
+<p>Every option we list includes reserved or priority access, so the real decision is guide versus no guide. Skip the full tour if you are a repeat visitor, if you are an art lover who wants to linger without a group pace, or if you have a specific wing in mind and do not need the highlights loop. In those cases the shorter reserved-access highlights tour at £50 gives you the quick entry and orientation without the longer commitment.</p>
 
 <img src="https://cdn.getyourguide.com/img/tour/4c6598ce3d268ec22a500da730c07979a36100d0bf92ca13b27a04fb69014c43.jpg/145.jpg" alt="Gallery of paintings inside the Louvre Museum in Paris" loading="lazy" />
 
@@ -91,7 +91,7 @@ export const blogPosts: BlogPost[] = [
 <p>Be realistic about the Mona Lisa. She is smaller than expected, behind glass, and surrounded by a permanent scrum of phones. A guide will not clear the crowd, but they will time your approach and, crucially, point you towards the far greater works nearby that most visitors miss entirely. If the Mona Lisa is the only reason you are going, a guided tour makes the disappointment land more softly by giving you everything else around it.</p>
 
 <h2>The verdict</h2>
-<p>First timers: book the <strong>guided tour from £55</strong> and let someone else handle the maze. Returning visitors and independent explorers: a reserved-access ticket is all you need, and you keep the freedom to roam. Either way, book ahead. The Louvre without pre-booked entry means a long queue for a museum that already demands all your stamina.</p>
+<p>First timers: book the <strong>guided tour from £50</strong> and let someone else handle the maze. Returning visitors and independent explorers: a reserved-access ticket is all you need, and you keep the freedom to roam. Either way, book ahead. The Louvre without pre-booked entry means a long queue for a museum that already demands all your stamina.</p>
 <p class="cta-box"><a href="${GYG('457745')}" target="_blank" rel="noopener noreferrer sponsored">Compare Louvre guided tours and reserved-access tickets &rarr;</a></p>`,
     relatedTourSlugs: [
       'quick-entrance-louvre-museum-3-hour-tour',
@@ -100,7 +100,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedBlogSlugs: ['louvre-vs-musee-dorsay-which-museum', 'how-to-skip-the-line-in-paris'],
     faqs: [
-      { question: 'How much is a Louvre guided tour?', answer: 'A Mona Lisa and Louvre masterpieces tour with reserved access starts from £55. Longer expert-led tours run from £84, and premium priority-access guided tours start from £96.' },
+      { question: 'How much is a Louvre guided tour?', answer: 'A Mona Lisa and Louvre masterpieces tour with reserved access starts from £50. A priority-access Mona Lisa and museum icons tour starts from £60, and a fuller expert-led Louvre tour runs from £75.' },
       { question: 'Do I need a guide to see the Louvre?', answer: 'Not strictly, but the museum is enormous and confusing to navigate. First-time visitors benefit most from a guide who walks you to the highlights and adds context. Repeat visitors can use a reserved-access ticket instead.' },
       { question: 'Can you skip the line at the Louvre?', answer: 'Yes. Every tour and ticket we list includes reserved or priority access, which lets you bypass the main entry queue. Booking ahead is essential in peak season.' },
       { question: 'Is the Mona Lisa worth seeing at the Louvre?', answer: 'It is smaller than most people expect and always crowded. It is worth a look, but the surrounding masterpieces are the real reward, and a guide helps you find them.' },
@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The crowd problem, and how to beat it</h2>
 <p>Versailles is one of the busiest attractions in France, and the palace interior can feel like a slow-moving river of people by late morning. The two fixes are timing and access. Arrive early, and book skip-the-line entry so you are not standing in the notorious security queue that forms outside the gates.</p>
-<p>A guided <strong>skip-the-line tour of the palace and gardens starts from £66</strong>, taking you straight through the Hall of Mirrors with a licensed guide. If you would rather not deal with trains, a <strong>skip-the-line palace and garden tour with round-trip transport from Paris starts from £53</strong>, which bundles the travel, the queue-skip and free time in the gardens into one booking.</p>
+<p>A guided <strong>skip-the-line tour of the palace and gardens starts from £49</strong>, taking you straight through the Hall of Mirrors with a licensed guide. If you would rather not deal with trains, a <strong>skip-the-line palace and garden tour with round-trip transport from Paris starts from £43</strong>, which bundles the travel, the queue-skip and free time in the gardens into one booking.</p>
 <p class="cta-box"><a href="${GYG('398194')}" target="_blank" rel="noopener noreferrer sponsored">Check live prices for the Versailles skip-the-line tour &rarr;</a></p>
 
 <h2>Ticket only, or guided tour?</h2>
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>The verdict</h2>
-<p>Versailles is worth a day trip for anyone with three days or more in Paris. Book <strong>skip-the-line access from £53 with transport</strong> or <strong>from £66 for a guided palace and gardens tour</strong>, go early, and give yourself time to wander the gardens after the palace. Treated as a full half-day rather than a rushed add-on, it is one of the most rewarding things you can do near Paris.</p>
+<p>Versailles is worth a day trip for anyone with three days or more in Paris. Book <strong>skip-the-line access from £43 with transport</strong> or <strong>from £49 for a guided palace and gardens tour</strong>, go early, and give yourself time to wander the gardens after the palace. Treated as a full half-day rather than a rushed add-on, it is one of the most rewarding things you can do near Paris.</p>
 <p class="cta-box"><a href="${GYG('199048')}" target="_blank" rel="noopener noreferrer sponsored">Book a Versailles day trip with transport from Paris &rarr;</a></p>`,
     relatedTourSlugs: [
       'versailles-palace-tour-gardens-with-optional-full-access',
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedBlogSlugs: ['how-to-skip-the-line-in-paris', 'is-the-eiffel-tower-summit-worth-it'],
     faqs: [
-      { question: 'How much does a Versailles day trip from Paris cost?', answer: 'A full-access passport ticket starts from £21 if you travel independently. A skip-the-line tour with round-trip transport from Paris starts from £53, and a guided palace and gardens tour starts from £66.' },
+      { question: 'How much does a Versailles day trip from Paris cost?', answer: 'A full-access passport ticket starts from £21 if you travel independently. A skip-the-line tour with round-trip transport from Paris starts from £43, and a guided palace and gardens tour starts from £49.' },
       { question: 'Is Versailles worth visiting from Paris?', answer: 'Yes, for anyone with three or more days in Paris. The palace and gardens are extraordinary. Go early and book skip-the-line access to avoid the long security queues.' },
       { question: 'How far is Versailles from central Paris?', answer: 'About 40 minutes by RER train, or included in guided tours with round-trip coach transport from central Paris.' },
       { question: 'Do I need skip-the-line tickets for Versailles?', answer: 'They are strongly recommended. Versailles is one of the busiest attractions in France, and the security and ticket queues can be very long by late morning.' },
@@ -175,23 +175,23 @@ export const blogPosts: BlogPost[] = [
 <p class="cta-box"><a href="${GYG('193940')}" target="_blank" rel="noopener noreferrer sponsored">Check live prices for the 1-hour Seine cruise &rarr;</a></p>
 
 <h2>The evening lights cruise: most romantic</h2>
-<p>Paris earns its nickname, the City of Light, after dark. An <strong>evening river cruise with music starts from £21</strong>, and an <strong><a href="/tours/paris-bateaux-mouches-evening-cruise-souvenir-postcard">evening lights cruise with the legendary Bateaux-Mouches starts from £20</a></strong>, leaving from the company's own pier at Pont de l'Alma. Watching the Eiffel Tower sparkle on the hour from the middle of the Seine is one of those simple, unforgettable Paris moments. For couples and anyone who wants atmosphere over commentary, the evening sailing is worth the small step up in price.</p>
+<p>Paris earns its nickname, the City of Light, after dark. An <strong>evening river cruise with music starts from £21</strong>, and an <strong><a href="/tours/paris-bateaux-mouches-evening-cruise-souvenir-postcard">evening lights cruise with the legendary Bateaux-Mouches starts from £15</a></strong>, leaving from the company's own pier at Pont de l'Alma. Watching the Eiffel Tower sparkle on the hour from the middle of the Seine is one of those simple, unforgettable Paris moments. For couples and anyone who wants atmosphere over commentary, the evening sailing costs no more than the daytime one, though the Bateaux-Mouches ticket is non-refundable.</p>
 
 <img src="https://cdn.getyourguide.com/img/tour/5b23311a4442d22d607292f5443665ffe4a99fdb375d82527f15383bfcedb195.jpeg/145.jpg" alt="Paris landmarks lit up at night seen from a Seine evening cruise" loading="lazy" />
 
 <h2>The dinner cruise: special occasion only</h2>
-<p>A <strong>three-course dinner cruise on the Seine with live music starts from £98</strong>, and a <strong>Bateaux-Mouches four-course dinner cruise starts from £97</strong>. These are lovely, but be clear about what you are paying for: it is a full dinner-out budget combined with the cruise. For an anniversary, a proposal or a milestone birthday, it is worth every pound. As a casual evening it is expensive next to the £20 lights cruise, and the food is good rather than gourmet. Book it for the occasion, not just to see the city.</p>
+<p>A <strong>three-course dinner cruise on the Seine with live music starts from £98</strong>, and a <strong>Bateaux-Mouches four-course dinner cruise starts from £98</strong>. These are lovely, but be clear about what you are paying for: it is a full dinner-out budget combined with the cruise. For an anniversary, a proposal or a milestone birthday, it is worth every pound. As a casual evening it is expensive next to the £15 lights cruise, and the food is good rather than gourmet. Book it for the occasion, not just to see the city.</p>
 
 <h2>How to choose</h2>
 <ul>
 <li><strong>On a budget or with kids:</strong> the daytime sightseeing cruise from £15.</li>
-<li><strong>Couples wanting romance:</strong> the evening lights cruise from £20.</li>
-<li><strong>Marking a special occasion:</strong> the dinner cruise from £97.</li>
+<li><strong>Couples wanting romance:</strong> the evening lights cruise from £15.</li>
+<li><strong>Marking a special occasion:</strong> the dinner cruise from £98.</li>
 <li><strong>Want the tower sparkle:</strong> any evening option, timed to be on the water on the hour.</li>
 </ul>
 
 <h2>The verdict</h2>
-<p>Almost everyone should do a Seine cruise, and most people should do the cheap one. The <strong>one-hour sightseeing cruise from £15</strong> delivers the classic Paris view at an unbeatable price, and the <strong>evening lights cruise from £20</strong> is the upgrade that turns a nice hour into a memory. Save the dinner cruise for the night that deserves it.</p>
+<p>Almost everyone should do a Seine cruise, and most people should do the cheap one. The <strong>one-hour sightseeing cruise from £15</strong> delivers the classic Paris view at an unbeatable price, and the <strong>evening lights cruise from £15</strong> is the upgrade that turns a nice hour into a memory. Save the dinner cruise for the night that deserves it.</p>
 <p class="cta-box"><a href="${GYG('1282311')}" target="_blank" rel="noopener noreferrer sponsored">Compare Seine river cruises in Paris &rarr;</a></p>`,
     relatedTourSlugs: [
       'paris-1-hour-seine-cruise-departing-from-the-eiffel-tower',
@@ -201,9 +201,9 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedBlogSlugs: ['is-a-paris-catacombs-tour-worth-it', 'how-to-skip-the-line-in-paris'],
     faqs: [
-      { question: 'How much is a Seine river cruise in Paris?', answer: 'A one-hour daytime sightseeing cruise starts from £15. Evening lights cruises start from around £20 to £21, and dinner cruises with three or four courses start from £97 to £98.' },
-      { question: 'Which Seine cruise is best for couples?', answer: 'The evening lights cruise, from around £20, is the most romantic. Being on the water when the Eiffel Tower sparkles on the hour is a classic Paris moment.' },
-      { question: 'Is a Seine dinner cruise worth it?', answer: 'For a special occasion, yes. The food is good and the setting is memorable. For a casual night it is expensive compared with a £20 evening lights cruise.' },
+      { question: 'How much is a Seine river cruise in Paris?', answer: 'A one-hour daytime sightseeing cruise starts from £15. Evening lights cruises start from £15 to £21, and dinner cruises with three or four courses start from £98.' },
+      { question: 'Which Seine cruise is best for couples?', answer: 'The evening lights cruise, from £15, is the most romantic. Being on the water when the Eiffel Tower sparkles on the hour is a classic Paris moment.' },
+      { question: 'Is a Seine dinner cruise worth it?', answer: 'For a special occasion, yes. The food is good and the setting is memorable. For a casual night it is expensive compared with a £15 evening lights cruise.' },
       { question: 'When is the best time to do a Seine cruise?', answer: 'Daytime cruises are best for sightseeing and commentary. Evening cruises are best for atmosphere, especially timed so you are on the water when the Eiffel Tower lights sparkle.' },
     ],
     publishedDate: '2026-07-25',
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
 <p>So the honest question is not which view is better in the abstract. It is what you want from the hour: to be part of the icon, or to photograph it.</p>
 
 <h2>Why the Eiffel Tower still wins for most people</h2>
-<p>For a first visit, standing on the Eiffel Tower is the moment you came for. The <strong>entry ticket with optional summit access starts from £21</strong>, letting you choose your level on the day. A dedicated <strong>summit or second floor access ticket runs to around £76</strong>, and a <strong>guided reserved-access tour starts from £27</strong> if you want someone to handle the timing. The second floor gives the most photogenic view of the streets below, and the summit adds the bragging-rights height on a clear day.</p>
+<p>For a first visit, standing on the Eiffel Tower is the moment you came for. The <strong>entry ticket with optional summit access starts from £21</strong>, letting you choose your level on the day. A dedicated <strong>summit or second floor access ticket starts from around £25</strong>, and a <strong>guided reserved-access tour starts from £27</strong> if you want someone to handle the timing. The second floor gives the most photogenic view of the streets below, and the summit adds the bragging-rights height on a clear day.</p>
 <p class="cta-box"><a href="${GYG('149861')}" target="_blank" rel="noopener noreferrer sponsored">Check live Eiffel Tower ticket prices on GetYourGuide &rarr;</a></p>
 
 <h2>Where Montparnasse has a point</h2>
@@ -246,7 +246,7 @@ export const blogPosts: BlogPost[] = [
     relatedBlogSlugs: ['is-the-eiffel-tower-summit-worth-it', 'which-seine-river-cruise-is-worth-it'],
     faqs: [
       { question: 'Is the Eiffel Tower or Montparnasse the better view of Paris?', answer: 'Montparnasse gives the better photograph because the Eiffel Tower is in the frame. The Eiffel Tower gives the better experience because you are standing on the icon itself. For a first visit, the Eiffel Tower usually wins.' },
-      { question: 'How much are Eiffel Tower tickets?', answer: 'An entry ticket with optional summit access starts from £21. A dedicated summit or second floor ticket runs to around £76, and a guided reserved-access tour starts from £27.' },
+      { question: 'How much are Eiffel Tower tickets?', answer: 'An entry ticket with optional summit access starts from £21. A dedicated summit or second floor ticket starts from around £25, and a guided reserved-access tour starts from £27.' },
       { question: 'Can you see the Eiffel Tower from the Eiffel Tower?', answer: 'No, which is exactly why Montparnasse appeals to photographers. From Montparnasse the Eiffel Tower is the centrepiece of the view.' },
       { question: 'Should I do both viewpoints?', answer: 'If you have time, yes. Do the Eiffel Tower for the experience, then Montparnasse on another evening for the photo of the tower lit up.' },
     ],
@@ -318,7 +318,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The Louvre: vast, iconic, exhausting</h2>
 <p>The Louvre is the biggest and most famous art museum in the world, home to the Mona Lisa, the Venus de Milo and the Winged Victory of Samothrace. It spans antiquity to the mid-19th century, housed in a former royal palace so large that seeing even the highlights is a workout. It is unmissable, but it can overwhelm, and most visitors leave having walked more than they looked.</p>
-<p>Because of its scale, a guide pays off here. A <strong>Mona Lisa and Louvre masterpieces tour with reserved access starts from £55</strong>, and a fuller <strong>Louvre museum tour with the Mona Lisa and iconic masterpieces starts from £84</strong>, both cutting through the maze so you spend your energy on art rather than navigation.</p>
+<p>Because of its scale, a guide pays off here. A <strong>Mona Lisa and Louvre masterpieces tour with reserved access starts from £50</strong>, and a fuller <strong>Louvre museum tour with the Mona Lisa and iconic masterpieces starts from £75</strong>, both cutting through the maze so you spend your energy on art rather than navigation.</p>
 <p class="cta-box"><a href="${GYG('10505')}" target="_blank" rel="noopener noreferrer sponsored">Check live prices for Louvre guided tours &rarr;</a></p>
 
 <h2>The Musee d'Orsay: focused and joyful</h2>
@@ -329,7 +329,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>How to choose</h2>
 <ul>
-<li><strong>First time in Paris, want the icons:</strong> the Louvre, guided, from £55.</li>
+<li><strong>First time in Paris, want the icons:</strong> the Louvre, guided, from £50.</li>
 <li><strong>Love Impressionism, hate museum fatigue:</strong> the Musee d'Orsay, from £60.</li>
 <li><strong>Short on time and energy:</strong> d'Orsay is the easier, more satisfying single visit.</li>
 <li><strong>Serious about art with two days:</strong> both, ideally on separate days.</li>
@@ -339,7 +339,7 @@ export const blogPosts: BlogPost[] = [
 <p>If you tackle both, split them across two days rather than cramming them together. A common winning order is d'Orsay first, because it is manageable and puts you in the mood, then the Louvre with a guide so the giant does not defeat you. Both museums reward skip-the-line or reserved access; the entry queues at each can swallow a chunk of your day in peak season.</p>
 
 <h2>The verdict</h2>
-<p>There is no wrong answer, only the right fit for your trip. The Louvre is the essential, epic, tiring landmark; book it guided from £55 so it stays a pleasure. The Musee d'Orsay is the focused, beautiful, beatable one; book the skip-the-line tour from £60 and enjoy the greatest Impressionists in the world without the exhaustion. With two days, do both and see how the story of art turns from marble kings to shimmering light.</p>
+<p>There is no wrong answer, only the right fit for your trip. The Louvre is the essential, epic, tiring landmark; book it guided from £50 so it stays a pleasure. The Musee d'Orsay is the focused, beautiful, beatable one; book the skip-the-line tour from £60 and enjoy the greatest Impressionists in the world without the exhaustion. With two days, do both and see how the story of art turns from marble kings to shimmering light.</p>
 <p class="cta-box"><a href="${GYG('123683')}" target="_blank" rel="noopener noreferrer sponsored">Check live prices for the Musee d'Orsay skip-the-line tour &rarr;</a></p>`,
     relatedTourSlugs: [
       '2-hour-musee-d-orsay-guided-tour-with-skip-the-line-access',
@@ -349,7 +349,7 @@ export const blogPosts: BlogPost[] = [
     relatedBlogSlugs: ['louvre-guided-tour-vs-skip-the-line-ticket', 'how-to-skip-the-line-in-paris'],
     faqs: [
       { question: 'Should I visit the Louvre or the Musee d\'Orsay?', answer: 'Choose the Louvre for the greatest hits of world art and the famous building. Choose the Musee d\'Orsay for Impressionism and a museum you can enjoy in an afternoon. With two days, do both.' },
-      { question: 'How much are guided tours of these museums?', answer: 'A Louvre masterpieces tour with reserved access starts from £55, a fuller Louvre tour from £84, and a Musee d\'Orsay skip-the-line tour with an expert guide starts from £60.' },
+      { question: 'How much are guided tours of these museums?', answer: 'A Louvre masterpieces tour with reserved access starts from £50, a fuller Louvre tour from £75, and a Musee d\'Orsay skip-the-line tour with an expert guide starts from £60.' },
       { question: 'Which museum is less crowded and tiring?', answer: 'The Musee d\'Orsay. It is large but focused, and most visitors can enjoy it in two to three hours, whereas the Louvre is vast and can be exhausting.' },
       { question: 'What is the best order to visit both?', answer: 'Many visitors prefer the Musee d\'Orsay first because it is manageable, then the Louvre with a guide on a separate day so its size does not overwhelm them.' },
     ],
@@ -374,12 +374,12 @@ export const blogPosts: BlogPost[] = [
 <p class="cta-box"><a href="${GYG('149861')}" target="_blank" rel="noopener noreferrer sponsored">Check live Eiffel Tower skip-the-line prices &rarr;</a></p>
 
 <h2>The Louvre</h2>
-<p>The Louvre's main entrance queue is legendary, and the museum is so large that you cannot afford to waste time outside it. Every tour we list includes reserved or priority access: a <strong>Mona Lisa and masterpieces tour with reserved access starts from £55</strong>. Beyond skipping the line, a guide solves the Louvre's other problem, which is navigating a palace of 30,000 works without a map.</p>
+<p>The Louvre's main entrance queue is legendary, and the museum is so large that you cannot afford to waste time outside it. Every tour we list includes reserved or priority access: a <strong>Mona Lisa and masterpieces tour with reserved access starts from £50</strong>. Beyond skipping the line, a guide solves the Louvre's other problem, which is navigating a palace of 30,000 works without a map.</p>
 
 <img src="https://cdn.getyourguide.com/img/tour/3016f2213157ac1d.jpeg/145.jpg" alt="Visitors walking through the gardens at the Palace of Versailles" loading="lazy" />
 
 <h2>Versailles</h2>
-<p>Versailles combines a security queue at the gates with a ticket queue and a crush inside the palace. A <strong>skip-the-line tour of the palace and gardens starts from £66</strong>, and a version <strong>with round-trip transport from Paris starts from £53</strong>. Arriving early and holding skip-the-line access is the only reliable way to enjoy the Hall of Mirrors without shuffling through a wall of people.</p>
+<p>Versailles combines a security queue at the gates with a ticket queue and a crush inside the palace. A <strong>skip-the-line tour of the palace and gardens starts from £49</strong>, and a version <strong>with round-trip transport from Paris starts from £43</strong>. Arriving early and holding skip-the-line access is the only reliable way to enjoy the Hall of Mirrors without shuffling through a wall of people.</p>
 <p class="cta-box"><a href="${GYG('398194')}" target="_blank" rel="noopener noreferrer sponsored">Check live Versailles skip-the-line prices &rarr;</a></p>
 
 <h2>Musee d'Orsay</h2>
@@ -395,7 +395,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>The verdict</h2>
-<p>If you do one thing to make Paris easier, pre-book skip-the-line access at the attractions you care about. It costs little more than a standard ticket and it can save you half a day of standing in line. Start with the Eiffel Tower from £21, the Louvre from £55, Versailles from £53 and the Musee d'Orsay from £60, then spend the hours you saved actually enjoying the city.</p>
+<p>If you do one thing to make Paris easier, pre-book skip-the-line access at the attractions you care about. It costs little more than a standard ticket and it can save you half a day of standing in line. Start with the Eiffel Tower from £21, the Louvre from £50, Versailles from £43 and the Musee d'Orsay from £60, then spend the hours you saved actually enjoying the city.</p>
 <p>Ready to buy? Compare prices on our <a href="/guides/skip-the-line-paris">skip-the-line tickets in Paris</a> page, or browse every option in the <a href="/category/skip-the-line">skip-the-line tickets category</a>. Attraction by attraction, the ticket pages for the <a href="/attractions/eiffel-tower">Eiffel Tower</a>, the <a href="/attractions/louvre-museum">Louvre</a>, the <a href="/attractions/palace-of-versailles">Palace of Versailles</a> and the <a href="/attractions/musee-dorsay">Musee d'Orsay</a> show live prices for each.</p>
 <p class="cta-box"><a href="${GYG('62484')}" target="_blank" rel="noopener noreferrer sponsored">Browse skip-the-line tickets and tours for Paris &rarr;</a></p>`,
     relatedTourSlugs: [

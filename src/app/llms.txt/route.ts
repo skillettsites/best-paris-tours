@@ -20,21 +20,21 @@ function symbol(currency?: string): string {
 // One-line verdicts for the decision-content blog layer. Keyed by blog slug.
 const DECISION_VERDICTS: Record<string, string> = {
   'is-the-eiffel-tower-summit-worth-it':
-    'Verdict: worth it once on a clear day; otherwise the second floor gives an arguably better view for less. Entry with optional summit from £33.',
+    'Verdict: worth it once on a clear day; otherwise the second floor gives an arguably better view for less. Entry with optional summit from £21.',
   'louvre-guided-tour-vs-skip-the-line-ticket':
-    'Verdict: first-timers should book a guided tour (from £55) to navigate the maze; repeat visitors need only reserved-access entry.',
+    'Verdict: first-timers should book a guided tour (from £50) to navigate the maze; repeat visitors need only reserved-access entry.',
   'is-a-versailles-day-trip-from-paris-worth-it':
-    'Verdict: worth it with three or more days in Paris; go early with skip-the-line access. Tour with transport from £53, guided from £66, ticket only from £21.',
+    'Verdict: worth it with three or more days in Paris; go early with skip-the-line access. Tour with transport from £43, guided from £49, ticket only from £21.',
   'which-seine-river-cruise-is-worth-it':
-    'Verdict: almost everyone should cruise; the daytime sightseeing cruise (from £15) is best value, evening lights (from £20) most romantic, dinner cruise (from £97) for occasions only.',
+    'Verdict: almost everyone should cruise; the daytime sightseeing cruise (from £15) is best value, evening lights (from £15) most romantic, dinner cruise (from £98) for occasions only.',
   'eiffel-tower-vs-montparnasse-tower-view':
-    'Verdict: Eiffel Tower (from £33) wins for the experience and the icon; Montparnasse only for the photo with the tower in the frame.',
+    'Verdict: Eiffel Tower (from £21) wins for the experience and the icon; Montparnasse only for the photo with the tower in the frame.',
   'is-a-paris-catacombs-tour-worth-it':
     'Verdict: worth it for history lovers comfortable in tight underground spaces; skip if claustrophobic. Catacombs plus Seine cruise from £98.',
   'louvre-vs-musee-dorsay-which-museum':
-    'Verdict: Louvre for the icons (guided from £55), Musee d\'Orsay for Impressionism without the fatigue (from £60); do both with two days.',
+    'Verdict: Louvre for the icons (guided from £50), Musee d\'Orsay for Impressionism without the fatigue (from £60); do both with two days.',
   'how-to-skip-the-line-in-paris':
-    'Verdict: pre-book skip-the-line access at every major sight. Eiffel from £33, Louvre from £55, Versailles from £53, Musee d\'Orsay from £60.',
+    'Verdict: pre-book skip-the-line access at every major sight. Eiffel from £21, Louvre from £50, Versailles from £43, Musee d\'Orsay from £60.',
 };
 
 export function GET(): Response {
