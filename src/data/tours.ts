@@ -398,7 +398,7 @@ export const tours: Tour[] = [
     relatedSlugs: ['eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'paris-louvre-museum-tour-mona-lisa-iconic-masterpieces'],
   },
   {
-    slug: 'eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor',
+    slug: 'guided-eiffel-tower-reserved-access-summit-or-2nd-floor',
     title: 'Eiffel Tower Dedicated Reserved Access Summit or 2nd floor',
     shortTitle: 'Eiffel Tower Reserved Access with Guide',
     metaTitle: 'Guided Eiffel Tower Reserved Access Ticket 2026',
