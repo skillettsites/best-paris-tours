@@ -26,7 +26,7 @@ export const attractions: Attraction[] = [
     tourSlugs: ['paris-1-hour-seine-cruise-departing-from-the-eiffel-tower', 'paris-eiffel-tower-entry-ticket-with-optional-summit-access', 'eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'paris-eiffel-tower-summit-or-second-floor-access'],
     faqs: [
       { question: 'How much are Eiffel Tower tickets?', answer: 'Eiffel Tower tickets and tours in Paris start from around £15. Guided and skip-the-line options cost a little more. The ranked list shows current prices.' },
-      { question: 'What is the best Eiffel Tower tour?', answer: 'The most-reviewed option is the 1-Hour Seine Cruise from the Eiffel Tower, rated 4.4 stars by 86,985 travellers, from £15. For the tower itself, the Eiffel Tower Entry Ticket with Summit Access starts from £33.' },
+      { question: 'What is the best Eiffel Tower tour?', answer: 'The most-reviewed option is the 1-Hour Seine Cruise from the Eiffel Tower, rated 4.4 stars by 86,985 travellers, from £15. For the tower itself, the Eiffel Tower Entry Ticket with Summit Access starts from £21.' },
       { question: 'Can I skip the line at the Eiffel Tower?', answer: 'Yes. Reserved-access and timed-entry tickets bypass the ground-level ticket queue, though everyone still passes through security. Look for reserved or priority access in the option name, and book ahead in peak season as slots sell out.' },
     ],
     relatedPostSlugs: ['is-the-eiffel-tower-summit-worth-it', 'eiffel-tower-vs-montparnasse-tower-view', 'how-to-skip-the-line-in-paris'],

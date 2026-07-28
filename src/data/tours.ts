@@ -141,7 +141,7 @@ export const tours: Tour[] = [
     metaDescription: 'Book Paris: Eiffel Tower Entry Ticket with Optional Summit Access in Paris. Instant confirmation, free cancellation on most options. Rated 4.4 by 21,895 travellers.',
     description: 'Discover the beauty of Paris with an entry ticket to the iconic Eiffel Tower. Access the 1st and 2nd floors by elevator for breathtaking views of the city and upgrade your experience with summit access.',
     excerpt: 'Discover the beauty of Paris with an entry ticket to the iconic Eiffel Tower. Access the 1st and 2nd floors by elevator',
-    price: 33,
+    price: 21,
     currency: 'GBP',
     duration: 'Varies',
     rating: 4.4,

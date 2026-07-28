@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
 <img src="https://cdn.getyourguide.com/img/tour/0f1e19c74c6820a9.jpeg/145.jpg" alt="View over Paris from the Eiffel Tower second floor" loading="lazy" />
 
 <h2>The price difference</h2>
-<p>An <strong>Eiffel Tower entry ticket with optional summit access starts from £33</strong>, and it lets you decide whether to add the top when you book. A dedicated <strong>summit or second floor access ticket runs to around £76</strong> for the premium timed option, while a <strong>guided reserved-access tour to the summit or second floor starts from £27</strong> if you want a host to handle the logistics. The summit upgrade itself is not huge in cash terms, but the real cost is time.</p>
+<p>An <strong>Eiffel Tower entry ticket with optional summit access starts from £21</strong>, and it lets you decide whether to add the top when you book. A dedicated <strong>summit or second floor access ticket runs to around £76</strong> for the premium timed option, while a <strong>guided reserved-access tour to the summit or second floor starts from £27</strong> if you want a host to handle the logistics. The summit upgrade itself is not huge in cash terms, but the real cost is time.</p>
 <p class="cta-box"><a href="${GYG('149861')}" target="_blank" rel="noopener noreferrer sponsored">Check live Eiffel Tower entry and summit prices on GetYourGuide &rarr;</a></p>
 
 <h2>The queue reality</h2>
@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>The verdict</h2>
-<p>Book the <strong>entry ticket with optional summit access from £33</strong> so you keep the choice, aim for a clear morning or a sunset slot, and only commit to the top if the sky is open. If you are undecided, the second floor is the smart default: cheaper, quicker and arguably the better view. The Eiffel Tower is worth visiting no matter which level you reach; the summit is the upgrade you take when the weather says yes.</p>
+<p>Book the <strong>entry ticket with optional summit access from £21</strong> so you keep the choice, aim for a clear morning or a sunset slot, and only commit to the top if the sky is open. If you are undecided, the second floor is the smart default: cheaper, quicker and arguably the better view. The Eiffel Tower is worth visiting no matter which level you reach; the summit is the upgrade you take when the weather says yes.</p>
 <p class="cta-box"><a href="${GYG('62484')}" target="_blank" rel="noopener noreferrer sponsored">Compare Eiffel Tower summit and second floor tickets &rarr;</a></p>`,
     relatedTourSlugs: [
       'paris-eiffel-tower-entry-ticket-with-optional-summit-access',
@@ -56,7 +56,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedBlogSlugs: ['eiffel-tower-vs-montparnasse-tower-view', 'how-to-skip-the-line-in-paris'],
     faqs: [
-      { question: 'How much extra is Eiffel Tower summit access?', answer: 'An entry ticket with optional summit access starts from £33, letting you add the top when you book. Dedicated summit or second floor tickets run to around £76 for premium timed options, and guided reserved-access tours start from £27.' },
+      { question: 'How much extra is Eiffel Tower summit access?', answer: 'An entry ticket with optional summit access starts from £21, letting you add the top when you book. Dedicated summit or second floor tickets run to around £76 for premium timed options, and guided reserved-access tours start from £27.' },
       { question: 'Is the view better from the summit or the second floor?', answer: 'The second floor often gives the more photogenic view because you can pick out individual landmarks. The summit is higher and more dramatic overall, but details look flatter from 276 metres.' },
       { question: 'Should I book Eiffel Tower tickets in advance?', answer: 'Yes. Advance timed or reserved-access tickets let you skip the ground-level ticket and security queues, which can exceed two hours in peak summer season.' },
       { question: 'Is the summit worth it on a cloudy day?', answer: 'No. On hazy or cloudy days the summit view is often washed out or lost in cloud. Save the fare and enjoy the second floor instead.' },
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
 <p>So the honest question is not which view is better in the abstract. It is what you want from the hour: to be part of the icon, or to photograph it.</p>
 
 <h2>Why the Eiffel Tower still wins for most people</h2>
-<p>For a first visit, standing on the Eiffel Tower is the moment you came for. The <strong>entry ticket with optional summit access starts from £33</strong>, letting you choose your level on the day. A dedicated <strong>summit or second floor access ticket runs to around £76</strong>, and a <strong>guided reserved-access tour starts from £27</strong> if you want someone to handle the timing. The second floor gives the most photogenic view of the streets below, and the summit adds the bragging-rights height on a clear day.</p>
+<p>For a first visit, standing on the Eiffel Tower is the moment you came for. The <strong>entry ticket with optional summit access starts from £21</strong>, letting you choose your level on the day. A dedicated <strong>summit or second floor access ticket runs to around £76</strong>, and a <strong>guided reserved-access tour starts from £27</strong> if you want someone to handle the timing. The second floor gives the most photogenic view of the streets below, and the summit adds the bragging-rights height on a clear day.</p>
 <p class="cta-box"><a href="${GYG('149861')}" target="_blank" rel="noopener noreferrer sponsored">Check live Eiffel Tower ticket prices on GetYourGuide &rarr;</a></p>
 
 <h2>Where Montparnasse has a point</h2>
@@ -236,7 +236,7 @@ export const blogPosts: BlogPost[] = [
 <p>If you have the time, do both and sequence them well: go up the Eiffel Tower for the experience, then visit Montparnasse on another evening for the photo with the tower lit up. If you can only pick one, choose based on your goal. Experience and icon status: Eiffel Tower. The single best skyline photograph with the tower in it: Montparnasse.</p>
 
 <h2>The verdict</h2>
-<p>For a first trip and the definitive Paris moment, the Eiffel Tower is worth it every time; book the <strong>entry ticket from £33</strong> and pick your level based on the weather. Add Montparnasse only if you are a keen photographer or you have already done the tower and want the reverse angle. One puts you in the story; the other puts the star of the story in your camera.</p>
+<p>For a first trip and the definitive Paris moment, the Eiffel Tower is worth it every time; book the <strong>entry ticket from £21</strong> and pick your level based on the weather. Add Montparnasse only if you are a keen photographer or you have already done the tower and want the reverse angle. One puts you in the story; the other puts the star of the story in your camera.</p>
 <p class="cta-box"><a href="${GYG('62484')}" target="_blank" rel="noopener noreferrer sponsored">Compare Eiffel Tower summit and second floor tickets &rarr;</a></p>`,
     relatedTourSlugs: [
       'paris-eiffel-tower-summit-or-second-floor-access',
@@ -246,7 +246,7 @@ export const blogPosts: BlogPost[] = [
     relatedBlogSlugs: ['is-the-eiffel-tower-summit-worth-it', 'which-seine-river-cruise-is-worth-it'],
     faqs: [
       { question: 'Is the Eiffel Tower or Montparnasse the better view of Paris?', answer: 'Montparnasse gives the better photograph because the Eiffel Tower is in the frame. The Eiffel Tower gives the better experience because you are standing on the icon itself. For a first visit, the Eiffel Tower usually wins.' },
-      { question: 'How much are Eiffel Tower tickets?', answer: 'An entry ticket with optional summit access starts from £33. A dedicated summit or second floor ticket runs to around £76, and a guided reserved-access tour starts from £27.' },
+      { question: 'How much are Eiffel Tower tickets?', answer: 'An entry ticket with optional summit access starts from £21. A dedicated summit or second floor ticket runs to around £76, and a guided reserved-access tour starts from £27.' },
       { question: 'Can you see the Eiffel Tower from the Eiffel Tower?', answer: 'No, which is exactly why Montparnasse appeals to photographers. From Montparnasse the Eiffel Tower is the centrepiece of the view.' },
       { question: 'Should I do both viewpoints?', answer: 'If you have time, yes. Do the Eiffel Tower for the experience, then Montparnasse on another evening for the photo of the tower lit up.' },
     ],
@@ -370,7 +370,7 @@ export const blogPosts: BlogPost[] = [
 <p>Paris packs several of the world's most visited attractions into one compact city, and in peak season the demand overwhelms the on-the-day ticket systems. The Eiffel Tower, the Louvre and Versailles all regularly see queues that eat entire mornings. Worse, some of these are two-stage waits: one line for security, another for tickets, and sometimes a third inside. Skip-the-line tickets let you arrive at a set time and walk in, turning a two-hour ordeal into a few minutes.</p>
 
 <h2>Eiffel Tower</h2>
-<p>The Eiffel Tower has ground-level security queues plus lift queues inside. Book ahead: an <strong>entry ticket with optional summit access starts from £33</strong>, and a <strong>guided reserved-access tour starts from £27</strong>. A reserved slot gets you past the worst of the ground-level wait, and choosing an early-morning or evening time helps further.</p>
+<p>The Eiffel Tower has ground-level security queues plus lift queues inside. Book ahead: an <strong>entry ticket with optional summit access starts from £21</strong>, and a <strong>guided reserved-access tour starts from £27</strong>. A reserved slot gets you past the worst of the ground-level wait, and choosing an early-morning or evening time helps further.</p>
 <p class="cta-box"><a href="${GYG('149861')}" target="_blank" rel="noopener noreferrer sponsored">Check live Eiffel Tower skip-the-line prices &rarr;</a></p>
 
 <h2>The Louvre</h2>
@@ -395,7 +395,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>The verdict</h2>
-<p>If you do one thing to make Paris easier, pre-book skip-the-line access at the attractions you care about. It costs little more than a standard ticket and it can save you half a day of standing in line. Start with the Eiffel Tower from £33, the Louvre from £55, Versailles from £53 and the Musee d'Orsay from £60, then spend the hours you saved actually enjoying the city.</p>
+<p>If you do one thing to make Paris easier, pre-book skip-the-line access at the attractions you care about. It costs little more than a standard ticket and it can save you half a day of standing in line. Start with the Eiffel Tower from £21, the Louvre from £55, Versailles from £53 and the Musee d'Orsay from £60, then spend the hours you saved actually enjoying the city.</p>
 <p>Ready to buy? Compare prices on our <a href="/guides/skip-the-line-paris">skip-the-line tickets in Paris</a> page, or browse every option in the <a href="/category/skip-the-line">skip-the-line tickets category</a>. Attraction by attraction, the ticket pages for the <a href="/attractions/eiffel-tower">Eiffel Tower</a>, the <a href="/attractions/louvre-museum">Louvre</a>, the <a href="/attractions/palace-of-versailles">Palace of Versailles</a> and the <a href="/attractions/musee-dorsay">Musee d'Orsay</a> show live prices for each.</p>
 <p class="cta-box"><a href="${GYG('62484')}" target="_blank" rel="noopener noreferrer sponsored">Browse skip-the-line tickets and tours for Paris &rarr;</a></p>`,
     relatedTourSlugs: [
@@ -406,7 +406,7 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedBlogSlugs: ['is-the-eiffel-tower-summit-worth-it', 'is-a-versailles-day-trip-from-paris-worth-it'],
     faqs: [
-      { question: 'How do you skip the line at the Eiffel Tower?', answer: 'Book a timed entry or reserved-access ticket in advance. An entry ticket with optional summit access starts from £33, and a guided reserved-access tour starts from £27. Early or evening slots have the shortest waits.' },
+      { question: 'How do you skip the line at the Eiffel Tower?', answer: 'Book a timed entry or reserved-access ticket in advance. An entry ticket with optional summit access starts from £21, and a guided reserved-access tour starts from £27. Early or evening slots have the shortest waits.' },
       { question: 'Are skip-the-line tickets worth it in Paris?', answer: 'Yes. Standard queues at the Eiffel Tower, Louvre and Versailles can exceed two hours in summer. Skip-the-line access costs little more and can save you half a day.' },
       { question: 'Does skip-the-line mean no queue at all?', answer: 'Not quite. You still pass through security, but you bypass the long ticket queues, which are the biggest time-sink at most Paris attractions.' },
       { question: 'Which Paris attractions most need skip-the-line tickets?', answer: 'The Eiffel Tower, the Louvre and Versailles have the worst queues and benefit most. The Musee d\'Orsay is smaller but still worth booking ahead in peak season.' },
