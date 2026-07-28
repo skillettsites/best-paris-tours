@@ -168,12 +168,14 @@ export const blogPosts: BlogPost[] = [
     heroImageAlt: 'A sightseeing boat on the Seine passing Paris landmarks',
     content: `<p><strong>The short answer:</strong> a Seine cruise is one of the best-value things you can do in Paris, and almost everyone enjoys it. The daytime sightseeing cruise is the smart budget pick, the evening lights cruise is the most romantic, and the dinner cruise is a genuine special-occasion splurge rather than an everyday choice. Here is how to match the cruise to your trip.</p>
 
+<p>Prices, ratings and the departure point for every operator are laid out side by side on our <a href="/attractions/seine-river-cruise">Seine river cruise tickets</a> page if you want the comparison table first.</p>
+
 <h2>The daytime sightseeing cruise: best value</h2>
 <p>A <strong>one-hour Seine cruise departing from the Eiffel Tower starts from £15</strong>, and it is the easiest win in Paris. You glide past Notre-Dame, the Louvre, the Musee d'Orsay and back, with audio commentary explaining what you are seeing. It is short, cheap, and it gives you the city from its best angle: the water. For families and first-timers this is the one to book.</p>
 <p class="cta-box"><a href="${GYG('193940')}" target="_blank" rel="noopener noreferrer sponsored">Check live prices for the 1-hour Seine cruise &rarr;</a></p>
 
 <h2>The evening lights cruise: most romantic</h2>
-<p>Paris earns its nickname, the City of Light, after dark. An <strong>evening river cruise with music starts from £21</strong>, and an <strong>evening lights cruise with the legendary Bateaux-Mouches starts from £20</strong>. Watching the Eiffel Tower sparkle on the hour from the middle of the Seine is one of those simple, unforgettable Paris moments. For couples and anyone who wants atmosphere over commentary, the evening sailing is worth the small step up in price.</p>
+<p>Paris earns its nickname, the City of Light, after dark. An <strong>evening river cruise with music starts from £21</strong>, and an <strong><a href="/tours/paris-bateaux-mouches-evening-cruise-souvenir-postcard">evening lights cruise with the legendary Bateaux-Mouches starts from £20</a></strong>, leaving from the company's own pier at Pont de l'Alma. Watching the Eiffel Tower sparkle on the hour from the middle of the Seine is one of those simple, unforgettable Paris moments. For couples and anyone who wants atmosphere over commentary, the evening sailing is worth the small step up in price.</p>
 
 <img src="https://cdn.getyourguide.com/img/tour/5b23311a4442d22d607292f5443665ffe4a99fdb375d82527f15383bfcedb195.jpeg/145.jpg" alt="Paris landmarks lit up at night seen from a Seine evening cruise" loading="lazy" />
 
@@ -394,6 +396,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The verdict</h2>
 <p>If you do one thing to make Paris easier, pre-book skip-the-line access at the attractions you care about. It costs little more than a standard ticket and it can save you half a day of standing in line. Start with the Eiffel Tower from £33, the Louvre from £55, Versailles from £53 and the Musee d'Orsay from £60, then spend the hours you saved actually enjoying the city.</p>
+<p>Ready to buy? Compare prices on our <a href="/guides/skip-the-line-paris">skip-the-line tickets in Paris</a> page, or browse every option in the <a href="/category/skip-the-line">skip-the-line tickets category</a>. Attraction by attraction, the ticket pages for the <a href="/attractions/eiffel-tower">Eiffel Tower</a>, the <a href="/attractions/louvre-museum">Louvre</a>, the <a href="/attractions/palace-of-versailles">Palace of Versailles</a> and the <a href="/attractions/musee-dorsay">Musee d'Orsay</a> show live prices for each.</p>
 <p class="cta-box"><a href="${GYG('62484')}" target="_blank" rel="noopener noreferrer sponsored">Browse skip-the-line tickets and tours for Paris &rarr;</a></p>`,
     relatedTourSlugs: [
       'paris-eiffel-tower-entry-ticket-with-optional-summit-access',

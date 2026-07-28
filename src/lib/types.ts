@@ -21,6 +21,14 @@ export interface Tour {
   affiliateUrl: string;
   faqs: FAQ[];
   relatedSlugs: string[];
+  /** Unique, hand-written body sections rendered on the tour page. */
+  uniqueSections?: ContentSection[];
+}
+
+export interface ContentSection {
+  heading: string;
+  /** Trusted, hand-written HTML. */
+  content: string;
 }
 
 export interface Category {

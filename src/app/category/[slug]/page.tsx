@@ -10,7 +10,20 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
 import FAQ from '@/components/ui/FAQ';
 
-const categorySeoContent: Record<string, { paragraphs: string[]; relatedGuides: { slug: string; title: string }[] }> = {};
+const categorySeoContent: Record<
+  string,
+  { paragraphs: string[]; relatedGuides: { slug: string; title: string }[]; relatedPosts?: { slug: string; title: string }[] }
+> = {
+  'skip-the-line': {
+    paragraphs: [
+      'This page is the browse view: every skip-the-line, reserved-access and priority-entry ticket we list for Paris in one grid, so you can scan prices and ratings side by side and jump straight to the booking page.',
+      'If you already know which attraction you are queueing for, the two pages below go deeper. The buying guide compares priority-access prices attraction by attraction, and the practical guide explains how each queue actually works at the Eiffel Tower, the Louvre, Versailles and the Musee d\'Orsay.',
+      'Prices on this page start from £15 and every option is booked through GetYourGuide with instant mobile delivery, so there is nothing to print and nothing to collect. Most tickets carry free cancellation up to 24 hours before, which makes booking early the low-risk choice in peak season.',
+    ],
+    relatedGuides: [{ slug: 'skip-the-line-paris', title: 'Skip-the-line tickets in Paris: prices and what to book' }],
+    relatedPosts: [{ slug: 'how-to-skip-the-line-in-paris', title: 'How to skip the line in Paris: a practical guide' }],
+  },
+};
 
 export function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
@@ -123,6 +136,13 @@ export default async function CategoryPage({ params }: { params: Params }) {
                     <li key={guide.slug}>
                       <Link href={`/guides/${guide.slug}`} className="text-blue-900 hover:underline">
                         {guide.title}
+                      </Link>
+                    </li>
+                  ))}
+                  {(categorySeoContent[category.slug].relatedPosts ?? []).map((post) => (
+                    <li key={post.slug}>
+                      <Link href={`/blog/${post.slug}`} className="text-blue-900 hover:underline">
+                        {post.title}
                       </Link>
                     </li>
                   ))}

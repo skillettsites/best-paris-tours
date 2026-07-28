@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { attractions, getAttractionBySlug } from '@/data/attractions';
 import { getTourBySlug } from '@/data/tours';
+import { getBlogPostBySlug } from '@/data/blog-posts';
 import { itemListSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL, SITE_CITY } from '@/lib/constants';
 import TourCard from '@/components/ui/TourCard';
@@ -36,6 +37,10 @@ export default async function AttractionPage({ params }: { params: Params }) {
   if (!a) notFound();
 
   const tours = a.tourSlugs.map((s) => getTourBySlug(s)).filter((t): t is NonNullable<typeof t> => Boolean(t));
+  const relatedPosts = (a.relatedPostSlugs ?? [])
+    .map((s) => getBlogPostBySlug(s))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p))
+    .slice(0, 3);
   const top = tours[0];
   const fromPrice = Math.min(...tours.map((t) => t.price).filter(Boolean));
 
@@ -83,6 +88,32 @@ export default async function AttractionPage({ params }: { params: Params }) {
             <TourCard key={t.slug} tour={t} />
           ))}
         </div>
+
+        {/* Unique hand-written sections (hand-written HTML, not user input) */}
+        {a.sections && a.sections.length > 0 && (
+          <div className="mt-14 max-w-3xl guide-content">
+            {a.sections.map((section, i) => (
+              <section key={i} id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-')}>
+                <h2>{section.heading}</h2>
+                <div dangerouslySetInnerHTML={{ __html: section.content }} />
+              </section>
+            ))}
+          </div>
+        )}
+
+        {relatedPosts.length > 0 && (
+          <section className="mt-14 rounded-xl bg-gray-50 p-6 border border-gray-200">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Is it worth it? {a.name} guides</h2>
+            <ul className="space-y-3">
+              {relatedPosts.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/blog/${p.slug}`} className="text-green-700 font-medium hover:underline">{p.title}</Link>
+                  <p className="text-sm text-gray-500 mt-0.5">{p.excerpt}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className="mt-14">
           <h2 className="text-2xl font-bold text-gray-900 mb-5">{a.name} tickets: FAQ</h2>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { tours } from '@/data/tours';
 import { categories } from '@/data/categories';
 import { guides } from '@/data/guides';
+import { attractions } from '@/data/attractions';
 import { itemListSchema, breadcrumbSchema } from '@/lib/schema';
 import TourCard from '@/components/ui/TourCard';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -50,7 +51,14 @@ export default function ToursPage() {
             Discover {tours.length} hand-picked tours and attractions in Paris. Book online for the best prices and skip-the-line entry.
           </p>
           <p className="mt-3 text-gray-600 max-w-3xl">
-            From iconic landmarks to unforgettable day trips, we have selected the highest-rated experiences with verified reviews and instant confirmation. Prices start from just &pound;17 per person, with free cancellation on most bookings.
+            From iconic landmarks to unforgettable day trips, we have selected the highest-rated experiences with verified reviews and instant confirmation. Prices start from just &pound;15 per person, with free cancellation on most bookings.
+          </p>
+          <p className="mt-3 text-gray-600 max-w-3xl">
+            Want the shortlist rather than the full catalogue? Our{' '}
+            <Link href="/guides/best-paris-tours-2026" className="font-semibold text-green-700 hover:underline">best Paris tours 2026</Link>{' '}
+            ranking orders everything by verified reviews, and the{' '}
+            <Link href="/attractions" className="font-semibold text-green-700 hover:underline">Paris attraction ticket pages</Link>{' '}
+            break prices down sight by sight.
           </p>
         </div>
 
@@ -102,7 +110,16 @@ export default function ToursPage() {
         <section className="mt-8 border-t border-gray-200 pt-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Explore More</h2>
           <div className="flex flex-wrap gap-3">
-            </div>
+            {attractions.map((a) => (
+              <Link
+                key={a.slug}
+                href={`/attractions/${a.slug}`}
+                className="inline-flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-800 hover:border-green-300 hover:shadow-sm transition-all"
+              >
+                {a.name} tickets
+              </Link>
+            ))}
+          </div>
         </section>
       </div>
     </>

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { blogPosts, getBlogPostBySlug } from '@/data/blog-posts';
 import { getTourBySlug } from '@/data/tours';
+import { attractions } from '@/data/attractions';
 import { breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -50,6 +51,17 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const relatedTours = post.relatedTourSlugs
     .map((s) => getTourBySlug(s))
     .filter((t): t is NonNullable<typeof t> => t !== undefined);
+
+  // Attraction ticket pages named in this post, matched on the attraction name
+  // appearing in the post title or body. Keeps attraction pages inside the link
+  // mesh instead of leaking every mention straight out to GetYourGuide.
+  const postText = `${post.title} ${post.excerpt} ${post.content}`.toLowerCase();
+  const namedAttractions = attractions
+    .filter((a) => {
+      const needle = a.name.toLowerCase().replace(/[’']/g, "'");
+      return postText.replace(/[’']/g, "'").includes(needle);
+    })
+    .slice(0, 4);
 
   const relatedPosts = post.relatedBlogSlugs
     .map((s) => getBlogPostBySlug(s))
@@ -129,6 +141,31 @@ export default async function BlogPostPage({ params }: { params: Params }) {
             </div>
           </section>
         )}
+
+        <section className="mt-12 pt-8 border-t border-gray-200">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Compare tickets and prices</h2>
+          <p className="text-gray-600 mb-4">
+            Still deciding? The{' '}
+            <Link href="/guides/best-paris-tours-2026" className="text-green-700 font-semibold hover:underline">
+              best Paris tours 2026
+            </Link>{' '}
+            ranking puts every experience in order by verified reviews, with live prices.
+          </p>
+          {namedAttractions.length > 0 && (
+            <ul className="flex flex-wrap gap-2">
+              {namedAttractions.map((a) => (
+                <li key={a.slug}>
+                  <Link
+                    href={`/attractions/${a.slug}`}
+                    className="inline-flex items-center rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-800 hover:border-green-300 hover:bg-green-50 transition-colors"
+                  >
+                    {a.name} tickets
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
 
         {relatedPosts.length > 0 && (
           <section className="mt-12 pt-8 border-t border-gray-200">

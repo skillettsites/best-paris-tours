@@ -4,6 +4,7 @@ import TrackedGYGLink from '@/components/TrackedGYGLink';
 import { tours } from '@/data/tours';
 import { categories } from '@/data/categories';
 import { blogPosts } from '@/data/blog-posts';
+import { attractions } from '@/data/attractions';
 import { SITE_CITY, GYG_PARTNER_ID, GYG_LOCATION_ID, GYG_CITY_URL } from '@/lib/constants';
 import { trustStats } from '@/lib/trust';
 
@@ -123,6 +124,40 @@ export default function HomePage() {
         <SectionHeader eyebrow="Why us" title="Booking made simple" align="center" />
         <BenefitGrid items={benefits} columns={3} />
       </section>
+
+      {/* Top attractions: direct links into the attraction ticket pages */}
+      {attractions.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+          <SectionHeader
+            eyebrow="Tickets"
+            title={`Top ${SITE_CITY} attractions`}
+            subtitle="Prices, departure points and the best-rated option for each of the sights people actually book."
+            action={{ label: 'All attractions', href: '/attractions' }}
+          />
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+            {attractions.map((a) => (
+              <Link
+                key={a.slug}
+                href={`/attractions/${a.slug}`}
+                className="rounded-card border border-border bg-surface px-4 py-3.5 text-sm font-semibold text-on-surface transition-colors hover:border-primary hover:text-primary"
+              >
+                {a.name} tickets
+              </Link>
+            ))}
+          </div>
+          <p className="mt-6 text-on-surface-2">
+            Not sure where to start? The{' '}
+            <Link href="/guides/best-paris-tours-2026" className="font-semibold text-primary hover:underline">
+              best Paris tours 2026
+            </Link>{' '}
+            ranking sorts every experience by verified traveller reviews, and our guide to{' '}
+            <Link href="/attractions/seine-river-cruise" className="font-semibold text-primary hover:underline">
+              Seine river cruise tickets
+            </Link>{' '}
+            compares prices and departure points across all three operators.
+          </p>
+        </section>
+      )}
 
       {/* Categories */}
       {categories.length > 0 && (

@@ -22,15 +22,13 @@ import ViewerCounter from '@/components/ds/ViewerCounter';
 import RevealOnScroll from '@/components/ds/RevealOnScroll';
 import StickyBookingBar from '@/components/ds/StickyBookingBar';
 
+// Keys must match the category slugs in src/data/categories.ts and the values
+// must be real guide slugs from src/data/guides.ts, or the block never renders.
 const categoryGuideMap: Record<string, string[]> = {
-  landmarks: ['first-time-visiting-paris', 'paris-3-day-itinerary', 'best-walking-tours-paris-2026'],
-  'river-cruises': ['bus-tour-vs-boat-tour-paris', 'paris-tours-for-couples', 'paris-3-day-itinerary'],
-  'day-trips': ['best-day-trips-from-paris', 'first-time-visiting-paris', 'paris-3-day-itinerary'],
-  'food-tours': ['paris-food-tours', 'free-things-to-do-in-paris-2026'],
-  'family-fun': ['best-paris-tours-for-kids', 'paris-rainy-day-activities', 'free-things-to-do-in-paris-2026'],
-  'walking-tours': ['best-walking-tours-paris-2026', 'first-time-visiting-paris', 'free-things-to-do-in-paris-2026'],
-  'museums-exhibitions': ['paris-rainy-day-activities', 'first-time-visiting-paris', 'best-paris-tours-for-kids'],
-  'evening-experiences': ['paris-tours-for-couples', 'best-walking-tours-paris-2026', 'best-evening-tours-paris-2026'],
+  'skip-the-line': ['skip-the-line-paris', 'best-paris-tours-2026', 'first-time-in-paris'],
+  'guided-tours': ['best-guided-tours-in-paris', 'best-walking-tours-paris-2026', 'best-paris-tours-2026'],
+  'food-drink': ['best-paris-tours-2026', 'paris-tours-on-a-budget', 'paris-tours-booking-faq'],
+  'top-attractions': ['best-paris-tours-2026', 'best-hop-on-hop-off-paris', 'paris-tours-on-a-budget'],
 };
 
 // Map tour keywords to relevant decision-content blog posts. Falls back to the
@@ -164,6 +162,14 @@ export default async function TourPage({ params }: { params: Params }) {
             <section>
               <p className="text-[17px] text-on-surface leading-relaxed">{tour.description}</p>
             </section>
+
+            {/* Unique hand-written sections (hand-written HTML, not user input) */}
+            {tour.uniqueSections?.map((section, i) => (
+              <section key={i} className="guide-content">
+                <h2>{section.heading}</h2>
+                <div dangerouslySetInnerHTML={{ __html: section.content }} />
+              </section>
+            ))}
 
             {/* Highlights */}
             <section>

@@ -51,7 +51,7 @@ export const categories: Category[] = [
     description: 'The best top attractions in Paris, hand-picked from the top-rated experiences on GetYourGuide. Book ahead for the best availability, skip the queues where offered, and enjoy free cancellation on most options.',
     excerpt: 'Top-rated top attractions in Paris, booked direct through GetYourGuide.',
     icon: '⭐',
-    tourSlugs: ['eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'paris-eiffel-tower-summit-or-second-floor-access', 'eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'fragonard-paris-mini-perfume-workshop', 'paris-macaron-class-at-galeries-lafayette'],
+    tourSlugs: ['eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor', 'paris-eiffel-tower-summit-or-second-floor-access', 'fragonard-paris-mini-perfume-workshop', 'paris-macaron-class-at-galeries-lafayette'],
     faqs: [
       { question: 'How do I book top attractions in Paris?', answer: 'Choose a tour below and book directly through GetYourGuide. You get instant confirmation and a mobile ticket.' },
       { question: 'Is free cancellation available?', answer: 'Most experiences offer free cancellation up to 24 hours before. Check the individual booking page for details.' },
