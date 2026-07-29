@@ -4,7 +4,9 @@ import { categories } from '@/data/categories';
 import { guides } from '@/data/guides';
 import { attractions } from '@/data/attractions';
 import { blogPosts } from '@/data/blog-posts';
+import { monthPages } from '@/data/paris-months';
 import { SITE_URL, CONTENT_DATE } from '@/lib/constants';
+import { HUB_PATH, SEASON_UPDATED } from '@/lib/season';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(CONTENT_DATE);
@@ -60,5 +62,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...tourPages, ...attractionPages, ...categoryPages, ...guidePages, ...blogPages];
+  const seasonLastModified = new Date(SEASON_UPDATED);
+
+  const seasonPages: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}${HUB_PATH}`, lastModified: seasonLastModified, changeFrequency: 'monthly', priority: 0.9 },
+    ...monthPages.map((m) => ({
+      url: `${SITE_URL}/${m.slug}`,
+      lastModified: seasonLastModified,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
+  ];
+
+  return [...staticPages, ...seasonPages, ...tourPages, ...attractionPages, ...categoryPages, ...guidePages, ...blogPages];
 }
