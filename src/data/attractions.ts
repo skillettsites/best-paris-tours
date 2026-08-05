@@ -157,6 +157,12 @@ export const attractions: Attraction[] = [
       { question: 'What is the best Disneyland Paris tour?', answer: 'The top-rated option is Disneyland® Paris 1-Day Ticket, rated 4.6 stars by 56,303 travellers, from £44.' },
       { question: 'Do I need to book Disneyland Paris tickets in advance?', answer: 'Yes. Dated park tickets are cheaper online than at the gate and guarantee entry on busy dates such as school holidays and weekends, when the parks can reach capacity.' },
     ],
+    // No related guide is added here on purpose. The only candidate,
+    // how-to-skip-the-line-in-paris, is scoped to the Eiffel Tower, Louvre,
+    // Versailles and Musee d'Orsay and never mentions Disneyland, which is a
+    // different product (Premier Access) 32km outside the city. Linking it would
+    // be link placement for its own sake, and it already appears on 5 of the 8
+    // attraction pages where it genuinely applies.
   },
   {
     slug: 'notre-dame',
@@ -180,7 +186,10 @@ export const attractions: Attraction[] = [
 <p>Either way, get there early. The Parvis fills from mid-morning, and the shortest waits are at opening and in the last hour of the day. The cathedral sits at 6 Parvis Notre-Dame, Place Jean-Paul II, on the Ile de la Cite in the 4th arrondissement, a two-minute walk from Cite metro station on line 4. Many <a href="/attractions/seine-river-cruise">Seine river cruises</a> pass directly beneath it, which is the other free-ish way to see the building.</p>`,
       },
     ],
-    relatedPostSlugs: ['is-a-paris-catacombs-tour-worth-it', 'which-seine-river-cruise-is-worth-it', 'how-to-skip-the-line-in-paris'],
+    // Pre-existing third link to how-to-skip-the-line-in-paris removed: that post
+    // covers only the Eiffel Tower, Louvre, Versailles and Musee d'Orsay, and
+    // Notre-Dame entry is free with no queue to skip, so it was actively unhelpful.
+    relatedPostSlugs: ['is-a-paris-catacombs-tour-worth-it', 'which-seine-river-cruise-is-worth-it'],
     faqs: [
       { question: 'Do you need a ticket to enter Notre-Dame?', answer: 'No. Since the cathedral reopened in December 2024, general entry to Notre-Dame is free and open to all. Free timed reservations are offered on the official notredamedeparis.fr website only. A paid guided tour is optional and buys you a guide, not entry.' },
       { question: 'What is the best Notre-Dame tour?', answer: 'The Notre-Dame Cathedral Guided Tour, Inside and Out is the option we list, rated 4.7 stars by 1,676 travellers, from £18. It is a one-hour small-group tour limited to five people with a certified guide, covering the exterior on the Parvis and the reopened interior.' },
