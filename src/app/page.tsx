@@ -5,7 +5,7 @@ import { tours } from '@/data/tours';
 import { categories } from '@/data/categories';
 import { blogPosts } from '@/data/blog-posts';
 import { attractions } from '@/data/attractions';
-import { SITE_CITY, GYG_PARTNER_ID, GYG_LOCATION_ID, GYG_CITY_URL } from '@/lib/constants';
+import { SITE_CITY, GYG_CITY_URL } from '@/lib/constants';
 import { trustStats } from '@/lib/trust';
 
 import SectionHeader from '@/components/ds/SectionHeader';
@@ -18,6 +18,7 @@ import CategoryPill from '@/components/ds/CategoryPill';
 import PartnerBadge from '@/components/ds/PartnerBadge';
 import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
 import SisterSites from '@/components/SisterSites';
+import CityWidget from '@/components/ui/CityWidget';
 
 const byReviews = [...tours].sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
 const mostBookedTours = byReviews.slice(0, 6);
@@ -233,7 +234,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <SectionHeader eyebrow="Explore" title={`Hundreds more ${SITE_CITY} experiences`} subtitle="Browse the full GetYourGuide catalogue, with live pricing and availability." />
         <div className="bg-surface rounded-card-lg p-4 sm:p-6 border border-border">
-          <div data-gyg-href="https://widget.getyourguide.com/default/city.frame" data-gyg-location-id={GYG_LOCATION_ID} data-gyg-locale-code="en-US" data-gyg-widget="city" data-gyg-partner-id={GYG_PARTNER_ID} />
+          <CityWidget />
         </div>
       </section>
 
@@ -244,7 +245,7 @@ export default function HomePage() {
       {/* Sticky mobile CTA */}
       <div className="fixed bottom-0 inset-x-0 z-50 sm:hidden bg-white/95 backdrop-blur border-t border-border shadow-[0_-4px_20px_rgba(0,0,0,0.1)] p-3">
         <TrackedGYGLink href={GYG_CITY_URL} tourName={SITE_CITY} section="home-browse-gyg" className="flex items-center justify-center gap-2 w-full rounded-xl bg-accent hover:bg-accent-ink text-on-accent font-semibold text-base py-3.5 shadow-lg shadow-accent/25 transition-all active:scale-[0.98]">
-          Browse tours: from <LocalPrice gbp={trustStats.minPrice} />
+          Browse tours: from <LocalPrice amount={trustStats.minPrice} currency="GBP" />
           <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
         </TrackedGYGLink>
       </div>
