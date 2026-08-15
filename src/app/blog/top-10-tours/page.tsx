@@ -7,6 +7,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 import TrackedGYGLink from '@/components/TrackedGYGLink';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
+import LocalPrice from '@/components/LocalPrice';
 
 // Ranked best-first (rating, then verified review volume). The post reads 1..10.
 const top10 = [...tours]
@@ -31,12 +32,6 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image', title: TITLE, description: DESC },
 };
-
-function symbol(currency?: string): string {
-  if (!currency || currency === 'GBP') return '£';
-  const map: Record<string, string> = { USD: '$', EUR: '€', AUD: 'A$', ISK: 'ISK ', MXN: 'MX$' };
-  return map[currency] || `${currency} `;
-}
 
 function reviews(n: number): string {
   return n >= 1000 ? `${(Math.floor(n / 100) / 10).toFixed(1)}k+` : n.toLocaleString();
@@ -132,7 +127,7 @@ export default function Top10Page() {
               </TrackedGYGLink>
 
               <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-600">
-                <span className="font-semibold text-gray-900">From {symbol(tour.currency)}{tour.price}</span>
+                <span className="font-semibold text-gray-900">From <LocalPrice amount={tour.price} currency={tour.currency} /></span>
                 <span>&middot; {tour.duration}</span>
                 <span>&middot; Free cancellation on most options</span>
               </div>

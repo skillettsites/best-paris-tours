@@ -1,3 +1,4 @@
+import DisplayCopy, { DisplayCopyHtml } from '@/components/DisplayCopy';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -109,7 +110,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
         <header className="mt-4 mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">{post.title}</h1>
-          <p className="mt-4 text-lg text-gray-600">{post.excerpt}</p>
+          <DisplayCopy as="p" className="mt-4 text-lg text-gray-600" text={post.excerpt} />
           <time className="mt-3 block text-sm text-gray-500" dateTime={post.updatedDate}>
             Updated: {new Date(post.updatedDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
           </time>
@@ -127,7 +128,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           />
         </div>
 
-        <div className="guide-content" dangerouslySetInnerHTML={{ __html: post.content }} />
+        <DisplayCopyHtml className="guide-content" html={post.content} />
 
         <FAQ faqs={post.faqs} />
 

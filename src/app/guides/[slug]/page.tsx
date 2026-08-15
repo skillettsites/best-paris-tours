@@ -1,4 +1,5 @@
 import LocalPrice from '@/components/LocalPrice';
+import DisplayCopy, { DisplayCopyHtml } from '@/components/DisplayCopy';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -104,7 +105,7 @@ export default async function GuidePage({ params }: { params: Params }) {
                   )}
                   <p className="text-xs font-bold uppercase tracking-wide text-green-700 mb-1">Best for {pick.useCase}</p>
                   <p className="font-bold text-gray-900">{pick.operator}</p>
-                  <p className="mt-1 text-sm text-gray-600 flex-1">{pick.verdict}</p>
+                  <DisplayCopy as="p" className="mt-1 text-sm text-gray-600 flex-1" text={pick.verdict} />
                   <span className="mt-3 inline-flex items-center gap-1 text-sm font-bold text-green-700">
                     Book now
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
@@ -132,7 +133,7 @@ export default async function GuidePage({ params }: { params: Params }) {
                       {relatedTours[0].rating} ({relatedTours[0].reviewCount.toLocaleString()} reviews)
                     </span>
                     <span>{relatedTours[0].duration}</span>
-                    <span className="font-bold text-gray-900">From <LocalPrice gbp={relatedTours[0].price} /></span>
+                    <span className="font-bold text-gray-900">From <LocalPrice amount={relatedTours[0].price} currency={relatedTours[0].currency} /></span>
                   </div>
                 </div>
                 <div className="flex flex-col items-start sm:items-end gap-1">
@@ -142,7 +143,7 @@ export default async function GuidePage({ params }: { params: Params }) {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-green-500 transition-colors whitespace-nowrap"
                   >
-                    Book now from <LocalPrice gbp={relatedTours[0].price} />
+                    Book now from <LocalPrice amount={relatedTours[0].price} currency={relatedTours[0].currency} />
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
@@ -183,7 +184,7 @@ export default async function GuidePage({ params }: { params: Params }) {
                 <div key={i}>
                   <section id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-')}>
                     <h2>{section.heading}</h2>
-                    <div dangerouslySetInnerHTML={{ __html: section.content }} />
+                    <DisplayCopyHtml html={section.content} />
                   </section>
                   {ctaTours.length > 0 && <InlineTourCTA tours={ctaTours} />}
                 </div>
@@ -232,7 +233,7 @@ export default async function GuidePage({ params }: { params: Params }) {
                   {otherGuides.map(g => (
                     <li key={g.slug}>
                       <Link href={`/guides/${g.slug}`} className="text-green-700 font-medium hover:underline">{g.title}</Link>
-                      <p className="text-sm text-gray-500 mt-0.5">{g.excerpt}</p>
+                      <DisplayCopy as="p" className="text-sm text-gray-500 mt-0.5" text={g.excerpt} />
                     </li>
                   ))}
                 </ul>
@@ -280,7 +281,7 @@ export default async function GuidePage({ params }: { params: Params }) {
           label={relatedTours[0].shortTitle}
           sublabel="Free cancellation · Instant confirmation"
           href={relatedTours[0].affiliateUrl}
-          price={`£${relatedTours[0].price}`}
+          price={<LocalPrice amount={relatedTours[0].price} currency={relatedTours[0].currency} />}
           ctaLabel="Book Now"
           external
         />
