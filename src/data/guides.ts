@@ -278,6 +278,54 @@ export const guides: Guide[] = [
     publishedDate: '2026-08-16',
     updatedDate: '2026-08-16',
   },
+  {
+    slug: 'best-eiffel-tower-tickets',
+    title: 'Which Eiffel Tower Ticket Is Actually the Best in 2026?',
+    metaTitle: 'Which Eiffel Tower Ticket to Book 2026 | Top 3 Compared',
+    metaDescription: 'Optional summit entry, dedicated reserved access, or a second-floor ticket with a short briefing? An honest top 3 of the Eiffel Tower tickets people actually book on GetYourGuide.',
+    excerpt: 'Quick answer: book the Eiffel Tower Entry Ticket with Optional Summit Access if it is your first visit. Book the dedicated reserved-access ticket if you want a reserved entrance and a guided visit. Book the summit or second-floor ticket if you want a short briefing then free time. The summit is an upgrade. Security is not skippable.',
+    quickPicks: [
+      { useCase: 'first visit', operator: 'Eiffel Tower Entry Ticket with Summit Access', verdict: 'Elevator to the first and second floors, optional summit, host to the second floor. Rated 4.5 from 22,264 reviews.', href: 'https://www.getyourguide.com/activity/-t149861?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+      { useCase: 'a reserved slot', operator: 'Eiffel Tower Reserved Access: Summit or 2nd Floor', verdict: 'Dedicated reserved entrance with a guided visit. Rated 4.4 from 19,352 reviews. Non-refundable.', href: 'https://www.getyourguide.com/activity/-t403969?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+      { useCase: 'second floor or summit', operator: 'Eiffel Tower Summit or Second Floor Access', verdict: 'Short briefing beside the tower, then free time. Summit is an upgrade. Rated 4.4 from 16,980 reviews.', href: 'https://www.getyourguide.com/activity/-t62484?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+    ],
+    sections: [
+      {
+        heading: 'The short version',
+        content: 'Three GetYourGuide Eiffel Tower products cover almost every booking. The entry ticket with optional summit is the first-timer pick: elevator to the first and second floors, a host to the second floor, and a summit upgrade if you want it. The reserved-access ticket is the listing that sells a dedicated reserved entrance and a guided visit. The summit or second-floor ticket is a short briefing then free time. Official tickets also sit on toureiffel.paris.',
+      },
+      {
+        heading: '1. Optional summit entry: best for a first visit',
+        content: 'Paris: Eiffel Tower Entry Ticket with Optional Summit Access is the ticket most first-time visitors should book. You get elevator access to the first and second floors, an optional summit upgrade, and a host to the second floor. It is not a full guided tour and not a Seine cruise.',
+      },
+      {
+        heading: '2. Dedicated reserved access: best reserved slot',
+        content: 'Eiffel Tower Dedicated Reserved Access Summit or 2nd Floor is the reserved-access listing with the most GetYourGuide reviews of that type. It includes a guided visit. The listing is non-refundable.',
+      },
+      {
+        heading: '3. Summit or second floor: best if you want a short briefing',
+        content: 'Paris: Eiffel Tower Summit or Second Floor Access meets a guide beside the tower, takes the elevator to the second floor, then leaves you to stay as long as you like. Upgrade at checkout for the summit. There is no reserved lift from the second floor to the top.',
+      },
+      {
+        heading: 'Security, stairs and the river',
+        content: 'Everyone still goes through security at the base. Stairs tickets to the second floor are a different official product and are not one of these three elevator listings. A Seine cruise that departs at the foot of the tower is a river ticket, not an Eiffel Tower ticket.',
+      },
+    ],
+    relatedTourSlugs: [
+      'paris-eiffel-tower-entry-ticket-with-optional-summit-access',
+      'eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor',
+      'paris-eiffel-tower-summit-or-second-floor-access',
+    ],
+    faqs: [
+      { question: 'Which Eiffel Tower ticket is the best?', answer: 'On a first visit, the Eiffel Tower Entry Ticket with Optional Summit Access is the best ticket. It is rated 4.5 from 22,264 reviews. Book the dedicated reserved-access ticket if you want a reserved entrance and a guided visit. Book the summit or second-floor ticket if you want a short briefing then free time. Live from-prices sit on the cards above and on GetYourGuide.' },
+      { question: 'Do you need a ticket to go up the Eiffel Tower?', answer: 'Yes. Tower access is ticketed. Official timed tickets sit on toureiffel.paris. The three GetYourGuide products on this page are hosted or reserved elevator tickets, not free Champ de Mars photos from the ground.' },
+      { question: 'Can I skip the line at the Eiffel Tower?', answer: 'A reserved or timed elevator ticket bypasses the ticket window. You still go through security, and summit holders still queue on the second floor for the top lift. Arriving early is still the most reliable way to cut the wait.' },
+      { question: 'Is the summit included?', answer: 'Not by default. All three listings are second-floor elevator tickets. The summit is an upgrade you choose at checkout. If the summit is closed, you still get the lower floors.' },
+      { question: 'Are these real Eiffel Tower tickets or Seine cruises?', answer: 'These three are GetYourGuide Eiffel Tower elevator products. A Seine cruise that departs at the foot of the tower is a different product and belongs on the Seine cruise comparison.' },
+    ],
+    publishedDate: '2026-08-16',
+    updatedDate: '2026-08-16',
+  },
 ];
 
 export function getGuideBySlug(slug: string): Guide | undefined {
