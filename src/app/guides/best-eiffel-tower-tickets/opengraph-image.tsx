@@ -1,28 +1,15 @@
 import { ImageResponse } from 'next/og';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { getGuideBySlug, guides } from '@/data/guides';
+import { getGuideBySlug } from '@/data/guides';
 
 export const runtime = 'nodejs';
-export const alt = 'Guide';
+export const alt = 'Which Eiffel Tower ticket to book';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
-const DEDICATED_GUIDE_SLUGS = new Set([
-  'best-notre-dame-tickets',
-  'best-versailles-tickets',
-  'best-eiffel-tower-tickets',
-]);
-
-export function generateStaticParams() {
-  return guides.filter((guide) => !DEDICATED_GUIDE_SLUGS.has(guide.slug)).map((guide) => ({ slug: guide.slug }));
-}
-
-type Params = Promise<{ slug: string }>;
-
-export default async function OGImage({ params }: { params: Params }) {
-  const { slug } = await params;
-  const guide = getGuideBySlug(slug);
+export default async function OGImage() {
+  const guide = getGuideBySlug('best-eiffel-tower-tickets');
   const fontPath = join(process.cwd(), 'node_modules/next/dist/compiled/@vercel/og/Geist-Regular.ttf');
   const fontData = await readFile(fontPath);
 
@@ -45,7 +32,7 @@ export default async function OGImage({ params }: { params: Params }) {
             Travel Guide
           </div>
           <div style={{ fontSize: 44, fontWeight: 800, color: 'white', lineHeight: 1.2, maxWidth: 900, display: 'flex' }}>
-            {guide?.title || 'Paris Travel Guide'}
+            {guide?.title || 'Which Eiffel Tower Ticket to Book'}
           </div>
         </div>
         <div style={{ fontSize: 20, color: '#dbeafe', display: 'flex' }}>
