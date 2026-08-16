@@ -186,6 +186,50 @@ export const guides: Guide[] = [
     publishedDate: "2026-07-14",
     updatedDate: "2026-07-14",
   },
+  {
+    slug: 'best-notre-dame-tickets',
+    title: 'Which Notre-Dame Ticket Is Actually the Best in 2026?',
+    metaTitle: 'Which Notre-Dame Ticket to Book 2026 | Top 3 Compared',
+    metaDescription: 'Guided interior and exterior, the most-booked restored-masterpiece tour, or a reserved-access slot? An honest top 3 of the Notre-Dame tickets people actually book on GetYourGuide.',
+    excerpt: 'Quick answer: book the Notre-Dame Cathedral Guided Tour, Inside and Out if it is your first visit. Book the Restored Masterpiece tour if you want the cheapest highly-reviewed guide. Book the reserved-access tour if you want a reserved slot. General entry to the cathedral is free. You are paying for a guide, not a door ticket.',
+    quickPicks: [
+      { useCase: 'first visit', operator: 'Notre-Dame Cathedral Guided Tour, Inside and Out', verdict: 'Certified guide inside and out, small group, and you can cancel it. Rated 4.7 from 1,676 reviews.', href: 'https://www.getyourguide.com/activity/-t778850?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+      { useCase: 'best value', operator: 'Notre-Dame The Restored Masterpiece Guided Tour', verdict: 'The tour people actually book. Rated 4.5 from 4,511 reviews.', href: 'https://www.getyourguide.com/activity/-t1156458?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+      { useCase: 'a reserved slot', operator: 'Notre-Dame Cathedral Skip-the-Line Guided Tour', verdict: 'Reserved priority entry with a licensed guide. Rated 4.8 from 316 reviews.', href: 'https://www.getyourguide.com/activity/-t607051?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+    ],
+    sections: [
+      {
+        heading: 'The short version',
+        content: 'Three GetYourGuide Notre-Dame products cover almost every booking. The interior and exterior guided tour is the first-timer pick: a certified guide on the Parvis and inside, in a group of five. The Restored Masterpiece tour is the most reviewed and the cheapest typical from-price. The reserved-access tour is the listing that sells a reserved or priority slot. Official cathedral entry is free on all three.',
+      },
+      {
+        heading: '1. Interior and exterior: best for a first visit',
+        content: 'Paris: Notre-Dame Cathedral Interior and Exterior Guided Tour is the ticket most first-time visitors should book. You get a certified guide, a group limited to five, and free cancellation. You still queue in the general entry line. You are paying for the commentary, not for a skip-the-line door.',
+      },
+      {
+        heading: '2. Restored Masterpiece: best value / most booked',
+        content: 'Paris: Notre-Dame The Restored Masterpiece Guided Tour is the Notre-Dame product with the most GetYourGuide reviews of the three. It is a shorter guided visit covering the Gothic symbols and the restored interior. Cathedral admission stays free.',
+      },
+      {
+        heading: '3. Reserved-access tour: best if you want a reserved slot',
+        content: 'Paris: Notre-Dame Cathedral Skip-the-Line Guided Tour sells reserved priority entry with a licensed guide. Official entry is still free. Compare start times and group size against the interior-and-exterior tour rather than treating this as a different cathedral.',
+      },
+      {
+        heading: 'Free entry and the tower climb',
+        content: 'General entry to Notre-Dame is free. Free timed reservations, when offered, sit on notredamedeparis.fr only. The tower climb is a separate ticketed visit run by the national monuments authority and is not part of these tours. Sainte-Chapelle and the Conciergerie sit on the same island and need their own tickets.',
+      },
+    ],
+    relatedTourSlugs: ['parisnotre-dame-cathedral-interior-and-exterior-guided-tour'],
+    faqs: [
+      { question: 'Which Notre-Dame ticket is the best?', answer: 'On a first visit, the Notre-Dame Cathedral Guided Tour, Inside and Out is the best ticket. It is rated 4.7 from 1,676 reviews, and you can cancel it. Book the Restored Masterpiece tour if you want the cheapest highly-reviewed guide. Book the reserved-access tour if you want a reserved slot. Live from-prices sit on the cards above and on GetYourGuide.' },
+      { question: 'Do you need a ticket to enter Notre-Dame?', answer: 'No. Since the cathedral reopened in December 2024, general entry is free and open to all. Free timed reservations are offered on the official notredamedeparis.fr website only. A paid GetYourGuide tour buys you a guide, not entry.' },
+      { question: 'Can I skip the line at Notre-Dame?', answer: 'Not with a paid door ticket, because entry is free. The interior-and-exterior tour queues in the general line with the guide. The reserved-access listing sells a reserved or priority slot. Arriving at opening or late in the day is still the most reliable way to cut the wait.' },
+      { question: 'Is the Notre-Dame tower climb included?', answer: 'No. The tower climb is a separate ticketed visit run by the national monuments authority. None of the three GetYourGuide tours on this page include it.' },
+      { question: 'Are these real Notre-Dame tours or Seine cruises?', answer: 'These three are GetYourGuide Notre-Dame and Île de la Cité guided tours of the cathedral and the Parvis. A Seine cruise that passes Notre-Dame is a different product and belongs on the Seine cruise comparison.' },
+    ],
+    publishedDate: '2026-08-16',
+    updatedDate: '2026-08-16',
+  },
 ];
 
 export function getGuideBySlug(slug: string): Guide | undefined {
