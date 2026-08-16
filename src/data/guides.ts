@@ -230,6 +230,54 @@ export const guides: Guide[] = [
     publishedDate: '2026-08-16',
     updatedDate: '2026-08-16',
   },
+  {
+    slug: 'best-versailles-tickets',
+    title: 'Which Versailles Ticket Is Actually the Best in 2026?',
+    metaTitle: 'Which Versailles Ticket to Book 2026 | Top 3 Compared',
+    metaDescription: 'Guided skip-the-line palace tour, full-access estate ticket, or a half-day from Paris with transport? An honest top 3 of the Versailles tickets people actually book on GetYourGuide.',
+    excerpt: 'Quick answer: book the Skip-the-Line Palace and Gardens Tour if it is your first visit. Book the Full Access Ticket if you want the cheapest way onto the whole estate and will handle the train yourself. Book the tour with transport if you do not want to figure out the RER. Palace entry is ticketed.',
+    quickPicks: [
+      { useCase: 'first visit', operator: 'Versailles Skip-the-Line Palace and Gardens Tour', verdict: 'Licensed guide through the Hall of Mirrors, skip-the-line palace entry, garden access, and you can cancel it. Rated 4.7 from 11,551 reviews.', href: 'https://www.getyourguide.com/activity/-t398194?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+      { useCase: 'best value', operator: 'Versailles Palace and Gardens Full Access Ticket', verdict: 'The ticket people actually book. Palace, Trianon, Marie Antoinette’s Estate and gardens. Rated 4.6 from 46,247 reviews.', href: 'https://www.getyourguide.com/activity/-t59565?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+      { useCase: 'transport from Paris', operator: 'Skip-the-Line Versailles Tour with Transport', verdict: 'Half-day from Paris with round-trip transport and a guide. Rated 4.6 from 1,233 reviews.', href: 'https://www.getyourguide.com/activity/-t199048?partner_id=LPT26IL&utm_medium=online_publisher&cmp=best_paris_tours' },
+    ],
+    sections: [
+      {
+        heading: 'The short version',
+        content: 'Three GetYourGuide Versailles products cover almost every booking. The skip-the-line palace and gardens tour is the first-timer pick: a licensed guide through the Hall of Mirrors and reserved palace entry. The full-access ticket is the most reviewed and the cheapest typical from-price. The tour with transport is the half-day from Paris if you do not want to plan the RER.',
+      },
+      {
+        heading: '1. Skip-the-line palace and gardens: best for a first visit',
+        content: 'Versailles: Skip-the-Line Tour of Palace and Gardens Access is the ticket most first-time visitors should book. You get a licensed guide, skip-the-line palace entry, garden access, and free cancellation. You still travel to Versailles yourself, usually on RER C to Versailles Château Rive Gauche.',
+      },
+      {
+        heading: '2. Full access ticket: best value / most booked',
+        content: 'Paris: Versailles Palace and Gardens Full Access Ticket is the Versailles product with the most GetYourGuide reviews of the three. It is a one-day passport for the palace, the Trianon, Marie Antoinette’s Estate and the gardens. There is no guide. The listing is non-refundable.',
+      },
+      {
+        heading: '3. Tour with transport: best if you do not want the RER',
+        content: 'Skip-the-Line Versailles Palace and Garden Tour with Transport bundles round-trip transport from Paris, a guided walk through the Hall of Mirrors and Grand Apartments, skip-the-line palace entry, and free time in the gardens. It is a half-day, not a full estate wander.',
+      },
+      {
+        heading: 'Palace tickets, Mondays and the gardens',
+        content: 'Palace entry is ticketed. The palace is closed on Mondays. The park is free. The formal gardens are free from November to March and ticketed on Musical Gardens and Fountain Show days in the warmer months. Official tickets also sit on chateauversailles.fr.',
+      },
+    ],
+    relatedTourSlugs: [
+      'versailles-palace-tour-gardens-with-optional-full-access',
+      'palace-of-versailles-full-access-passport-ticket',
+      'skip-the-line-versailles-palace-garden-tour-with-transport',
+    ],
+    faqs: [
+      { question: 'Which Versailles ticket is the best?', answer: 'On a first visit, the Skip-the-Line Palace and Gardens Tour is the best ticket. It is rated 4.7 from 11,551 reviews, and you can cancel it. Book the Full Access Ticket if you want the cheapest highly-reviewed way onto the whole estate. Book the tour with transport if you do not want to plan the RER. Live from-prices sit on the cards above and on GetYourGuide.' },
+      { question: 'Do you need a ticket to enter the Palace of Versailles?', answer: 'Yes. Palace entry is ticketed, with a timed slot. Official tickets sit on chateauversailles.fr. The three GetYourGuide products on this page are the ones people book for mobile confirmation and, on two of the three, free cancellation.' },
+      { question: 'Can I skip the line at Versailles?', answer: 'A skip-the-line tour bypasses the ticket queue and uses a reserved palace slot. You still go through security at the gates. Arriving early is still the most reliable way to cut the wait. The full-access ticket is a timed entry, not a guided skip-the-line tour.' },
+      { question: 'Does the ticket include Marie Antoinette’s Estate?', answer: 'The Full Access Ticket includes the palace, the Trianon, Marie Antoinette’s Estate and the gardens. The two guided tours include palace entry and garden access. Marie Antoinette’s Estate is an optional upgrade on the first-visit tour, not a default.' },
+      { question: 'Are these real Versailles tours or Paris city tickets?', answer: 'These three are GetYourGuide Palace of Versailles products: a guided palace and gardens tour, a full-access estate ticket, and a half-day from Paris with transport. A Seine cruise or an Eiffel Tower ticket is a different product.' },
+    ],
+    publishedDate: '2026-08-16',
+    updatedDate: '2026-08-16',
+  },
 ];
 
 export function getGuideBySlug(slug: string): Guide | undefined {
