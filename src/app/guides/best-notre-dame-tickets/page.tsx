@@ -36,10 +36,10 @@ export default function BestNotreDameTicketPage() {
     .filter((g) => g.slug !== SLUG)
     .filter((g) =>
       [
-        'best-seine-river-cruise',
         'first-time-in-paris',
         'skip-the-line-paris',
         'best-guided-tours-in-paris',
+        'best-paris-tours-2026',
       ].includes(g.slug)
     );
 
